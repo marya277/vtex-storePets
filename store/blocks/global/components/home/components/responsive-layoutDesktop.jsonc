@@ -1,0 +1,15 @@
+{
+  
+    "responsive-layout.desktop#home__info--desktop": {
+        "title":"componente  escritorio",
+        "children": ["rich-text#home__info--desktop"]
+      },
+      "rich-text#home__info--desktop": {
+        "props": {
+          "text": "# Nuevos productos",
+          "blockClass":"title-products",
+          "textAlign":"CENTER",
+          "textPosition":"CENTER"
+        }
+      }    
+}

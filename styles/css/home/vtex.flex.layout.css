@@ -1,0 +1,13 @@
+/* .fleRxowContent--home_section--one{
+    background-color: blue;
+} */
+.flexColChild--section_one--image{
+    max-width: 600px;
+}
+
+.headerRowContainer:nth-child{
+    align-content:space-between;
+    width: auto;
+    background-color: blueviolet;
+    height: 20%;
+}

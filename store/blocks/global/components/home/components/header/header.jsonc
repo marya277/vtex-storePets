@@ -1,0 +1,175 @@
+{
+   "header": {
+    "title": "header",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "title": "header",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      //"header-row#header__top"
+      "header-row#1-desktop",
+      "header-row#2-desktop"
+      //"header-row#2-Mobile"
+    ]
+    
+  },
+   "header-row#1-desktop":{
+   "children":[
+    "flex-layout.row#header__section--one"
+   ],
+   "props":{
+    "blockClass": "header-layout1",
+    "colJustify":"between"
+   }
+    },
+
+"flex-layout.row#header__section--one":{
+  "children":[
+    "flex-layout.col#header__one--text1",
+    "flex-layout.col#header__one--text2"
+    
+  ],
+  "props":{
+    "blockClass": "header__section--one"
+    //"colSizing": "auto"
+      }
+},
+"flex-layout.col#header__one--text1":{
+"children":[ 
+  "flex-layout.row#header__section--info1"
+
+  //"rich-text#header-row1__top--one"
+],
+"props":{
+  "width":"100%"
+}
+},
+
+"flex-layout.row#header__section--info1":{
+  "children":[
+    "rich-text#header-row1__top--one",
+    "rich-text#header-row1__top--two",
+    "rich-text#header-row1__top--three"
+  ]
+},
+"rich-text#header-row1__top--one":{
+  "props":{
+      "text":"3124329632",
+      "blockClass":"text-phone"
+      //"colSizing": "auto"
+  
+    }
+},
+"rich-text#header-row1__top--two":{
+  "props":{
+      "text":"info@happypets.co.com",
+      "blockClass":"text-email"
+      //"colSizing": "auto"
+      
+    }
+},
+"rich-text#header-row1__top--three":{
+  "props":{
+      "text":"  Lun-Sab:9:00 AM- 6:00 PM",
+      "blockClass":"text-schedule"
+     // "colSizing": "auto"
+      
+}
+},
+"flex-layout.col#header__one--text2":{
+"children":[ 
+  "flex-layout.row#header__section--info1"
+ /*  "rich-text#header-row1__top--four",
+  "rich-text#header-row1__top--five",
+  "rich-text#header-row1__top--six" */
+],
+"props":{
+
+},
+"rich-text#header-row1__top--four":{
+  "props":{
+      "text":"Instagram-",
+      "blockClass":"text-socialMedia"
+      //"colSizing": "auto"
+}
+},
+"rich-text#header-row1__top--five":{
+  "props":{
+    "text":"Facebook-WhatsApp",
+    "blockClass":"text-socialMedia"
+    //"colSizing": "auto"
+}
+},
+"rich-text#header-row1__top--six":{
+  "props":{
+    "text":"Facebook-WhatsApp",
+    "blockClass":"text-socialMedia"
+    //"colSizing": "auto"
+}
+}, 
+"header-row#2-desktop":{
+  "title": "Header inferior",
+  "children": [
+    "logo#header__top--logo",
+    "header-spacer",
+    "vtex.menu@2.x:menu#header__menu--desktop",
+    "search-bar",
+    "login",
+    "minicart.v2"
+  ],
+  "props": {
+    "blockClass": "header__top",
+    "sticky":true
+  }
+},
+
+"logo#header__top--logo": {
+  "title": "logo",
+  "props": {
+    "url": "assets/img/logo1.jpg",
+    "width": 200,
+    "href": "/"
+  }
+},
+"search-bar":{
+  "props": {
+    "blockClass": "header-search",
+    "maxWidth":200
+   }
+},
+"modal-trigger#header__top--login": {
+  "children": [
+    "rich-text#header__top--login",
+    "modal-layout#header__top--login"
+  ]
+},
+"rich-text#header__top--login": {
+  "props": {
+    "text": "login"
+  }
+},
+"modal-layout#header__top--login": {
+  "children": ["login-content"]
+},
+
+"login": {
+  "props": {
+    "emailAndPasswordTitle": "LOG-IN",
+    "accessCodeTitle": "Acess Code LOG-IN",
+    "emailPlaceholder": "e-mail",
+    "passwordPlaceholder": "password",
+    "showPasswordVerificationIntoTooltip": true,
+    "showIconProfile": true
+  }
+}
+
+}
+}
+
+  
+
+

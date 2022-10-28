@@ -1,0 +1,56 @@
+{
+    "vtex.menu@2.x:menu#header__menu--desktop": {
+        "props": {
+          "items": [
+            {
+              "id": "menu-item-inicio",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "title inicio",
+                "text": "INICIO"
+              }
+            },
+            {
+                "id": "menu-item-productos",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "title productos",
+                  "text": "PRODUCTOS"
+                }
+              },
+              {
+                "id": "menu-item-spa",
+                "type": "custom",
+                "highlight": false,
+                "itemProps": {
+                  "type": "internal",
+                  "href": "#",
+                  "noFollow": false,
+                  "tagTitle": "title  Spa",
+                  "text": "SPA"
+                }
+              },
+            {
+              "id": "menu-item-contacto",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "",
+                "noFollow": false,
+                "tagTitle": "contacto",
+                "text": "CONTACTO"
+              }
+            }
+          ]
+        }
+      }       
+}

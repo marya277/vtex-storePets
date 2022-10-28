@@ -1,0 +1,25 @@
+{
+  "header-layout.mobile": {
+    "title": "Header mobile",
+    "children": [
+      //"header-row#header__top"
+      //"header-row#1-desktop",
+      "header-row#2-Mobile"
+    ] 
+  },
+  "header-row#2-Mobile": {
+    "title": "Header medio",
+    "children": [
+     "drawer#header__mobile--menu",
+     "login",
+    "minicart.v2"
+    ],
+    "props": {
+     "blockClass": "header__middle"
+    }
+   }
+   
+}
+
+
+

@@ -1,0 +1,65 @@
+{
+    "flex-layout.row#home__section--one":{
+        "title":"seccion uno", 
+        "children":[
+          "flex-layout.col#section__one--text",
+          "flex-layout.col#section__one--image"
+
+        ],
+        "props":{
+          "blockClass": "home__section--one",
+          "colSizing": "auto",
+          "horizontalAlign":"center",
+          "colGap":10,
+          "paddingTop":5
+        }
+      },
+      "flex-layout.col#section__one--image":{
+        "children":[
+          "rich-text#section__one--title",
+          "image#home_image"
+        ],
+        "props":{
+          "blockClass":"section__one--image",
+          //"vertical-align": "middle",
+          "text": "Estamos ubicados"
+          
+        }
+      },
+      "flex-layout.col#section__one--text":{
+        "children":[
+         "rich-text#section__one--paragraph1", 
+          "rich-text#section__one--paragraph2",
+          "rich-text#section__one--paragraph3"
+        ]
+      },
+      
+      "rich-text#section__one--title":{
+        "props":{
+          "blockClass": "flex__title",
+          "text": "Nuestra tienda",
+          "textAlign":"center"
+//"textPosition":"center"
+        }
+      },
+    
+      "rich-text#section__one--paragraph1":{
+        "props":{
+          "text": "Av cra 15 # 140-14",
+          "textPosition":"center",
+          "textAlignment": "CENTER"
+
+        }
+      },
+      "rich-text#section__one--paragraph2":{
+        "props":{
+          "text": "Al lado de Lili Pink"
+        }
+      },
+      "rich-text#section__one--paragraph3":{
+        "props":{
+          "text": "Bogotá D.C.Colombia"
+        }
+      }
+      
+}
