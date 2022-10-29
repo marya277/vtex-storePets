@@ -10,7 +10,6 @@
           "blockClass": "home__section--one",
           "colSizing": "auto",
           "horizontalAlign":"center",
-          "colGap":10,
           "paddingTop":5
         }
       },
@@ -31,7 +30,10 @@
          "rich-text#section__one--paragraph1", 
           "rich-text#section__one--paragraph2",
           "rich-text#section__one--paragraph3"
-        ]
+        ],
+        "props":{
+          "rowGap":"2"
+        }
       },
       
       "rich-text#section__one--title":{

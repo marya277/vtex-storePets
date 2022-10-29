@@ -9,5 +9,11 @@ color: aliceblue;
 
 }
 .wrapper--text-email{
-    padding:10;
+    color: white;
 }
+.paragraph--text-phone,.paragraph--text-schedule, .paragraph--text-email,.paragraph--text-socialMedia1,.paragraph--text-socialMedia2,.paragraph--text-socialMedia3 {
+    color: white;
+    font-size: small;
+
+}
+
