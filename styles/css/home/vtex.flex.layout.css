@@ -8,3 +8,47 @@
 .headerRowContentContainer--header-layout1 {
   justify-content: space-around;
 }
+
+
+
+.headerRowBackground--header-layout1{
+  justify-content: flex-end;
+}
+.stretchChildrenWidth{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+
+
+.flexRowContent--home__section--one{
+  max-width:1000px;
+    margin: 0 auto  50px;
+    background-color: aqua;
+}
+.flexColdChid{
+  width: 100%;
+}
+/* :global(.vtex-rich-text-0-x-paragraph--texto-tienda1){
+  color:coral;
+} */
+/* .stretchChildrenWidth{
+  margin-right: 150px;
+} 
+.flexRow--flex-info1{
+  margin-right: 150px;
+  padding-right: 150px;
+} */
+
+.flexRowContent--flex-info2{
+  margin-left: 150px;
+}
+.flexRow--home__section--one{
+ background-color: rgb(84, 205, 236);
+}

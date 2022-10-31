@@ -1,0 +1,13 @@
+.container{
+    width:100%;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .logoImage{
+        margin-right: 80px;
+    }
+    
+  }
+.flexRowContent--home__section--one {
+    color:aqua
+}

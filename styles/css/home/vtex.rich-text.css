@@ -16,4 +16,37 @@ color: aliceblue;
     font-size: small;
 
 }
+.paragraph--texto-tienda1,.paragraph--texto-tienda5{
+    color:rgb(237, 78, 134);
+    font-size: 34px;
+    font-weight:700;
+    font-family:Dosis, sans-serif;
+    
+}
 
+.paragraph--texto-tienda2{
+    color:#000000;
+    font-size: 34px;
+    font-weight:700;
+    font-family:Dosis, sans-serif;
+
+}
+.paragraph--texto-tienda5{
+    margin-top:0;
+}
+
+.paragraph--texto-tienda2{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.paragraph--texto-tienda1{
+    margin-bottom:0;
+}
+/* .paragraph--texto-tienda1{
+    color:red;
+} */
+.container--flex__title{
+    display: flex;
+    justify-content: center;
+}

@@ -1,8 +1,8 @@
 {
     "image#home_image":{
-        "title": "imagen de home", 
+       "title":"imagen de home", 
         "props":{
-            "src": "assets/img/video-Happy-pets..png",
+            //"src": "assets/img/video-Happy-pets.png",
             "maxWidth": 400,            
             "title": "b2b commerce",
             "blockClass": "home_image",

@@ -31,15 +31,15 @@
   "flex-layout.row#header__section--one": {
     "children": [
       "flex-layout.row#header__one--text1",
+      "header-spacer",
       "flex-layout.row#header__one--text2"
     ],
     "props": {
       "blockClass": "header__section--one",
       "width": "100%",
       "colSizing": "auto",
-      "colGap": "7",
-
-      "colJustify": "around"
+      "colGap": "10",
+       "colJustify": "around"
     }
   },
   "flex-layout.row#header__one--text1": {
@@ -49,19 +49,28 @@
       "flex-layout.col#header__section--info--horario"
     ],
     "props": {
-      "fullWidth": true,
+      "width": "100%",
+
+      //"fullWidth": true,
       "blockClass": "flex-info1",
-      "colSizing": "auto",
-      "colJustify": "around",
-      "colGap": "7"
+      "colSizing": "equal",
+      "horizontalAlign": "right",
+     // "colJustify": "around",
+      "colGap": "8"
     }
   },
   "flex-layout.col#header__section--info1": {
-    "children": ["rich-text#header-row1__top--one"],
+    "children": [
+      
+      "rich-text#header-row1__top--one"
+      
+    ],
     "props": {
       "blockClass": "section-info1",
-      "marginLeft": "8"
+      "marginLeft": "8",
+      "src":"assets/img/067-phone.svg"
     }
+    
   },
   /* "icon#home__orders--icon":{
     "props":{
@@ -104,14 +113,18 @@
     ],
     "props": {
       "blockClass": "flex-info2",
-      "horizontalAlign": "right",
-      "colSizing": "auto",
-      "colJustify": "around",
+//"horizontalAlign": "right",
+      "colSizing": "equal",
+      //"colJustify": "around",
       "colGap": "7"
     }
   },
   "flex-layout.col#header__section--info_instagram": {
-    "children": ["rich-text#header-row1__top--four"]
+    "children": ["rich-text#header-row1__top--four"],
+    "props":{
+      "blockClass":"info-instagram" ,
+      "colGap":"7"  
+    }
   },
   "flex-layout.col#header__section--info_facebook": {
     "children": ["rich-text#header-row1__top--five"]
@@ -137,14 +150,15 @@
       "blockClass": "text-socialMedia3"
     }
   },
+  //inicia segunda fila header
   "header-row#2-desktop": {
-    "title": "Header inferior",
+   "title": "Header inferior",
     "children": [
       "logo#header__top--logo",
       "header-spacer",
-      "vtex.menu@2.x:menu#header__menu--desktop",
+      "vtex.menu@2.x:menu#websites",
       "search-bar",
-      "login",
+      //"login",
       "minicart.v2"
     ],
     "props": {
@@ -163,7 +177,7 @@
   "search-bar": {
     "props": {
       "blockClass": "header-search",
-      "maxWidth": 200
+      "maxWidth": 250
     }
   },
   "modal-trigger#header__top--login": {
@@ -192,3 +206,4 @@
     }
   }
 }
+
