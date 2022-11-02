@@ -5,22 +5,92 @@
       "flex-layout.col#section__two--item-2",
       "flex-layout.col#section__two--item-3",
       "flex-layout.col#section__two--item-4"
-    ]
+    ],
+    "props":{
+      "blockClass":"primera-seccion-producto",
+      "colGap":5,
+      "colSizing":"equal"
+      
+    }
   },
 
   "flex-layout.col#section__two--item-1": {
-    "children": ["image#home_category--one", "rich-text#test"]
+    "children": [
+      "image#home_category--one", 
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+    ],
+    "props":{
+      "blockClass":"col-two",
+      "marginLeft":5,
+      "vertical-align":"middle"
+    }
   },
+  "rich-text#titulo_section__one":{
+    "props": {
+      "text": "Categoria",
+      "textPosition":"center",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home1"
+    }
+  },
+  "rich-text#titulo_section__two":{
+    "props": {
+      "text": "productos",
+      "textPosition":"center",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home2"
+    }
+  },
+  "rich-text#titulo_section__three":{
+    "props": {
+      "text": " $ 44.900",
+      "textPosition":"center",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+    }
+  },
+
+
+  
   "flex-layout.col#section__two--item-2": {
-    "children": ["image#home_category--two", "rich-text#test"]
+    "children": [
+      "image#home_category--two", 
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+    ],
+    "props":{
+      "blockClass":"col-section-two",
+      "marginLeft":5
+    }
   },
 
   "flex-layout.col#section__two--item-3": {
-    "children": ["image#home_category--three", "rich-text#test"]
+    "children": [
+      "image#home_category--three", 
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+    ],
+    "props":{
+      "blockClass":"col-section-three",
+      "marginLeft":5
+    }
   },
 
   "flex-layout.col#section__two--item-4": {
-    "children": ["image#home_category--four", "rich-text#test"]
+    "children": [
+      "image#home_category--four", 
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+    ],
+    "props":{
+      "blockClass":"col-section-four",
+      "marginLeft":5
+    }
   },
 
   "flex-layout.row#home__section--three": {
@@ -29,75 +99,123 @@
       "flex-layout.col#section__two--item-6",
       "flex-layout.col#section__two--item-7",
       "flex-layout.col#section__two--item-8"
-    ]
+    ],
+    "props":{
+      "blockClass":"segunda-seccion-producto",
+      "colGap":5,
+      "colSizing":"equal"
+    }
   },
 
   "flex-layout.col#section__two--item-5": {
-    "children": ["image#home_category--five", "rich-text#test"]
+    "children": [
+      "image#home_category--five",
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+
+    ],
+    "props":{
+      "verticalAlign":"middle",
+      "blockClass":"col-section-five",
+      "marginLeft":5
+    }
   },
 
   "flex-layout.col#section__two--item-6": {
-    "children": ["image#home_category--six", "rich-text#test"]
+    "children": [
+      "image#home_category--six", 
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+    ],
+    "props":{
+      "verticalAlign":"middle",
+      "blockClass":"col-section-six",
+      "marginLeft":5
+      
+    }
   },
   "flex-layout.col#section__two--item-7": {
-    "children": ["image#home_category--seven", "rich-text#test"]
+    "children": [
+      "image#home_category--seven", 
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+    ],
+    "props":{
+      "verticalAlign":"middle",
+      "blockClass":"col-section-seven",
+      "marginLeft":5
+    }
   },
 
   "flex-layout.col#section__two--item-8": {
-    "children": ["image#home_category--eight", "rich-text#test"]
-  },
-  "rich-text#test": {
-    "props": {
-      "text": "Este es un texto de prueba"
+    "children": [
+      "image#home_category--eight", 
+      "rich-text#titulo_section__one",
+      "rich-text#titulo_section__two",
+      "rich-text#titulo_section__three"
+    ],
+    "props":{
+      "verticalAlign":"middle",
+      "blockClass":"col-section-eight",
+      "marginLeft":5
     }
   },
+  
   "image#home_category--one": {
     "props": {
       "src": "assets/img/img_flex_01.jpg",
-      "maxWidth": 300
+      "maxWidth":300
     }
   },
   "image#home_category--two": {
     "props": {
       "src": "assets/img/img_flex_02.jpg",
-      "maxWidth": 300
+      "maxWidth":300
     }
   },
 
   "image#home_category--three": {
     "props": {
       "src": "assets/img/img_flex_03.jpg",
-      "maxWidth": 300
+      "maxWidth":300
     }
   },
   "image#home_category--four": {
     "props": {
       "src": "assets/img/img_flex_04.jpg",
-      "maxWidth": 300
+      "maxWidth":300
+      
     }
   },
   "image#home_category--five": {
     "props": {
       "src": "assets/img/img_flex_05.jpg",
-      "maxWidth": 300
+      "maxWidth":300
+      
     }
   },
   "image#home_category--six": {
     "props": {
       "src": "assets/img/img_flex_06.jpg",
-      "maxWidth": 300
+      "maxWidth":300
+      
     }
   },
   "image#home_category--seven": {
     "props": {
       "src": "assets/img/img_flex_07.jpg",
-      "maxWidth": 300
+      "maxWidth":300
+    
     }
   },
   "image#home_category--eight": {
     "props": {
       "src": "assets/img/img_flex_08.jpg",
-      "maxWidth": 300
+      "maxWidth":300
+      
     }
   }
 }

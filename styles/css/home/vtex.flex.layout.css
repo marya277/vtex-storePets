@@ -24,7 +24,9 @@
   /* CSS */
   
 }
-
+.flexRowContent--home__section--one{
+  background-color:#54CDEC ;
+}
 
 
 .flexRowContent--home__section--one{
@@ -49,6 +51,4 @@
 .flexRowContent--flex-info2{
   margin-left: 150px;
 }
-.flexRow--home__section--one{
- background-color: rgb(84, 205, 236);
-}
+
