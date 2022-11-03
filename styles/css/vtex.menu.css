@@ -2,3 +2,14 @@
     justify-content:flex-start;
     width:auto;
 }
+
+    
+.styledLinkContainer:hover{
+    background-color: rgb(46, 185, 214);
+}
+.styledLinkContent{
+    font-style:sans-serif;;
+    font-weight: 400;
+    font-size: 14px;
+}
+

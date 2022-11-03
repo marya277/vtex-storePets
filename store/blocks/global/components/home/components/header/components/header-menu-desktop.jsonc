@@ -115,7 +115,15 @@
       "noFollow": true,
       "tagTitle": "ropa title",
       "text": "ROPA"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--two": {
@@ -128,9 +136,17 @@
       "noFollow": true,
       "tagTitle": " arnes title",
       "text": "ARNES/PECHERA"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
-   },
+    },
    "menu-item#category__products--three": {
     "props": {
      "id": "category-one",
@@ -141,7 +157,15 @@
       "noFollow": true,
       "tagTitle": " arnes title",
       "text": "CAMAS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--four": {
@@ -154,7 +178,15 @@
       "noFollow": true,
       "tagTitle": "cargadores title",
       "text": "CARGADORES"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--five": {
@@ -167,7 +199,15 @@
       "noFollow": true,
       "tagTitle": "collares title",
       "text": "COLLARES Y CORREAS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--six": {
@@ -180,7 +220,15 @@
       "noFollow": true,
       "tagTitle": "comederos title",
       "text": "COMEDEROS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--seven": {
@@ -193,7 +241,15 @@
       "noFollow": true,
       "tagTitle": "juguetes",
       "text": "JUGUETES"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--eight": {
@@ -206,7 +262,15 @@
       "noFollow": true,
       "tagTitle": "bonos title",
       "text": "BONOS DE REGALO"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--nine": {
@@ -219,7 +283,15 @@
       "noFollow": true,
       "tagTitle": "aseo title",
       "text": "ASEO Y BELLEZA"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--ten": {
@@ -232,7 +304,15 @@
       "noFollow": true,
       "tagTitle": "gatitos title",
       "text": "PARA GATITOS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--eleven": {
@@ -245,7 +325,15 @@
       "noFollow": true,
       "tagTitle": "placas title",
       "text": "PLACAS DE IDENTIFICACION"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--twelve": {
@@ -258,7 +346,15 @@
       "noFollow": true,
       "tagTitle": "snacks title",
       "text": "SNACKS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__products--thirteen": {
@@ -271,7 +367,15 @@
       "noFollow": true,
       "tagTitle": "otros title",
       "text": "OTROS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__contacto--one": {
@@ -284,7 +388,15 @@
       "noFollow": true,
       "tagTitle": "escribenos title",
       "text": "ESCRIBENOS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
    "menu-item#category__contacto--two": {
@@ -297,7 +409,15 @@
       "noFollow": true,
       "tagTitle": " nosotros title ",
       "text": "NOSOTROS"
-     }
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
     }
    },
   "vtex.menu@2.x:menu#submenucontacto": {

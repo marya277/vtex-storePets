@@ -8,31 +8,30 @@
     ],
     "props":{
       "blockClass": "home__section--one",
-      "colSizing": "auto",
-      "horizontalAlign":"around",
+      "colSizing": "equal",
+      "horizontalAlign":"center",
       "paddingTop":5,
-      //"colGap":1,
-      "rowGap":0,
       "blockclass":"flex-section_one"
+
     }
   },
-
   "flex-layout.col#section__one--text":{
     "children":[
       "rich-text#section__one--paragraph1",
       "rich-text#section__one--paragraph2",
       "rich-text#section__one--paragraph3"
-  
     ],
     "props":{
       "blockClass":"row-info-video",
-      "vertical-align":"middle",
-      "blockclass":"flex-video-pets"
+      "blockclass":"flex-video-pets",
+      "horizontalAlign":"center",
+      "verticalAlign":"middle",
+      "rowGap":0
     }
   },
    "rich-text#section__one--title":{
     "props":{
-      "blockClass": "flex__title",
+      "blockClass": "video__title",
       "text": "Nuestra tienda",
       "textAlign":"center"
      
@@ -44,7 +43,6 @@
       "textPosition":"center",
       "textAlignment": "CENTER",
       "blockClass":"texto-tienda1"
-      
     }
   },
   "rich-text#section__one--paragraph2":{
@@ -70,7 +68,8 @@
       "video#background"
     ], 
     "props":{
-      "blockClass":" video-home"
+      "blockClass":" video-home",
+      "preventVerticalStretch":true
     }
   }, 
   

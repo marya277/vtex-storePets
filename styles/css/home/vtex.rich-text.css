@@ -41,6 +41,7 @@ color: aliceblue;
 }
 
 .paragraph--texto-tienda1{
+    margin-top: 100px;
     margin-bottom:0;
 }
 /* .paragraph--texto-tienda1{
@@ -66,4 +67,14 @@ color: rgb(138, 138, 138);
     font-weight: 600;
     size: 18px;
     color:#f3c404
+}
+.paragraph--video__title{
+    color:#ed4e86;
+    font-weight: 600;
+    font-family: Dosis,sans-serif;
+    font-size: 57px;
+    margin-top: 50px;
+}
+.container--title-products{
+    background-color: rgb(234, 234, 234);
 }

@@ -110,9 +110,7 @@
         "blockClass":"item-hour",
         "noFollow": false,
         "tagTitle": "Shop",
-        "text": "Lun-Sab:9:00 AM- 6:00 PM",
-        "value": "White",
-        "color":"White"
+        "text": "Lun-Sab:9:00 AM- 6:00 PM"
       },
       "iconProps": {
         "id": "sti-clock",
@@ -126,8 +124,90 @@
   },
   
   "flex-layout.row#header__section--socialMedia":{
-
+"children":[
+  "menu##icons#header__top--right"
+]
   },
+  "menu##icons#header__top--right":{
+    "children":[
+      "menu-item#shop4",
+      "menu-item#shop5",
+      "menu-item#shop6"
+    ],
+    "props":{
+      "blockClass":"header-menu-icon2"
+    }
+  },
+  "menu-item#shop4": {
+    "props": {
+      "id": "menu-item-instagram",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "phone",
+        "text": "Instagram",
+        "blockClass":"item-instagram"
+      },
+      "iconProps": {
+        "id": "sti-check--filled",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        //"activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#shop5": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "blockClass":"item-facebook",
+        "noFollow": false,
+        "tagTitle": "facebook icon",
+        "text": "Facebook"
+      },
+      "iconProps": {
+        "id": "sti-close--line",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        //"activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#shop6": {
+    "props": {
+      "id": "menu-item-shop",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "blockClass":"item-hour",
+        "noFollow": false,
+        "tagTitle": "Whatsapp",
+        "text": "WhatsApp"
+      },
+      "iconProps": {
+        "id": "nav-minus",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        //"activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  
   //inicia segunda fila header
   "header-row#2-desktop": {
    "title": "Header inferior",
