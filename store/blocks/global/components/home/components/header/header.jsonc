@@ -216,8 +216,10 @@
       "header-spacer",
       "vtex.menu@2.x:menu#websites",
       "search-bar",
+     //"modal-trigger#lupa",
       //"login",
       "minicart.v2"
+
     ],
     "props": {
       "blockClass": "header__top",
@@ -231,6 +233,29 @@
       "width": 200,
       "href": "/"
     }
+  },
+  "modal-trigger#lupa":{
+"children":[
+  "flex-layout.row#search",
+  "modal-layout#search"
+]
+  },
+  "flex-layout.row#search":{
+"children":[
+  "image#search"
+]
+  },
+  "image#search":{
+"props":{
+  "blockClass":"header-search",
+  "src":"assets/img/lupa-blanca.png",
+  "maxWidth":20
+}
+  },
+  "modal-layout#search":{
+    "children":[
+      "search-bar"
+    ]
   },
   "search-bar": {
     "props": {

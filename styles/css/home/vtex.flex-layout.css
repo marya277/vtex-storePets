@@ -40,3 +40,9 @@
 .flexRow--primera-seccion-producto,.flexRow--segunda-seccion-producto{
   background-color: rgb(234, 234, 234);
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+.flexRow--primera-seccion-producto,.flexRow--segunda-seccion-producto{
+  display: none;
+}
+ 
+}

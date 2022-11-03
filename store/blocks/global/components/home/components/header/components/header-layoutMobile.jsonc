@@ -11,7 +11,12 @@
   },
   "header-row#2-Mobile": {
     "title": "Header medio",
-    "children": ["drawer#header__mobile--menu", "login", "minicart.v2"],
+    "children": [
+      "drawer#header__mobile--menu", 
+      "modal-trigger#lupa",
+      "login", 
+      "minicart.v2"
+    ],
     "props": {
       "blockClass": "header__middle"
     }

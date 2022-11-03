@@ -21,7 +21,8 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "title inicio",
-        "text": "INICIO"
+        "text": "INICIO",
+        "blockClass":"menu-item-desktop"
       }
     
     }
@@ -35,7 +36,8 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "title inicio",
-        "text": "PRODUCTOS"
+        "text": "PRODUCTOS",
+        "blockClass":"menu-item-desktop"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#producto"] // Defining a submenu
@@ -77,7 +79,8 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "title -spa",
-        "text": "SPA"
+        "text": "SPA",
+        "blockClass":"menu-item-desktop"
       }
     
     }
@@ -91,7 +94,8 @@
         "href": "#",
         "noFollow": false,
         "tagTitle": "title contacto",
-        "text": "CONTACTO"
+        "text": "CONTACTO",
+        "blockClass":"menu-item-desktop"
       }
     },
     "blocks": ["vtex.menu@2.x:submenu#contacto"] // Defining a submenu contacto

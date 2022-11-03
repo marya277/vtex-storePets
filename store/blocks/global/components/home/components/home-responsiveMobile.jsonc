@@ -1,0 +1,10 @@
+{
+    "responsive-layout.mobile#home__info--mobile": {
+        "title": "componente movil",
+        "children": [
+          //"rich-text#home__info--mobile"
+          "flex-layout.row#home__section--two",
+          "flex-layout.row#home__section--three"
+        ]
+      }
+}

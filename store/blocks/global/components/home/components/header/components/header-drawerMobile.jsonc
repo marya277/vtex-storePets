@@ -1,6 +1,9 @@
 {
   "drawer#header__mobile--menu": {
-    "children": ["menu#header__menu"]
+    "children": ["menu#header__menu"],
+    "props":{
+      "blockClass":"drawer-mobile"
+    }
     //"blocks": ["drawer-trigger"]
   },
   "drawer-trigger": {

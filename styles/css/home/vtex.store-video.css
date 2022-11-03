@@ -3,3 +3,8 @@
 margin-right: 80px;
 margin-bottom: 30px;
 }
+@media (min-width: 320px) and (max-width: 480px){
+    .videoContainer--videoEl{
+      margin-right: 10px;
+    }
+    }

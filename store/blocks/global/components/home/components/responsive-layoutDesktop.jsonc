@@ -2,7 +2,11 @@
   
     "responsive-layout.desktop#home__info--desktop": {
         "title":"componente  escritorio",
-        "children": ["rich-text#home__info--desktop"]
+        "children": [
+          "rich-text#home__info--desktop",
+          "responsive-layout.desktop#home__desktop"
+        ]
+
       },
       "rich-text#home__info--desktop": {
         "props": {
