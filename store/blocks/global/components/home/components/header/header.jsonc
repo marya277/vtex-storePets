@@ -9,217 +9,62 @@
   },
   "header-layout.desktop": {
     "title": "Header Desktop",
+    "children": ["flex-layout.row#header__top", "header-row#2-desktop"]
+  },
+
+  "flex-layout.row#header__top": {
     "children": [
-      //"header-row#header__top"
-      "header-row#1-desktop",
-      "header-row#2-desktop"
-      //"header-row#2-Mobile"
-    ]
-  },
-  "header-row#1-desktop":{
-    "children":[
-      "flex-layout.row#header__section--one"
+      "flex-layout.col#col__header--info",
+      "flex-layout.col#col__header--redes"
     ],
-    "props":{
-"blockClass":"header-top"
+    "props": {
+      "blockClass": "col-info--header"
     }
   },
-  "flex-layout.row#header__section--one":{
-    "children":[
-"flex-layout.row#header__section--infoStore",
-"header-spacer",
-"flex-layout.row#header__section--socialMedia"
+  "flex-layout.col#col__header--info": {
+    "children": ["flex-layout.row#row__header--top"]
+  },
+  "flex-layout.row#row__header--top": {
+    "children": ["rich-text#contacto", "rich-text#email", "rich-text#horario"],
+    "props": {
+      "colGap": 10,
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#col__header--redes": {
+    "children": ["flex-layout.row#row__header--top--redes"]
+  },
+  "flex-layout.row#row__header--top--redes": {
+    "children": [
+      "rich-text#instagram",
+      "rich-text#facebook",
+      "rich-text#whatsapp"
     ],
-    "props":{
-"title":"bloque header -top",
-"blockClass":"bloque__header__top"
-    }
-  },
-  "flex-layout.row#header__section--infoStore":{
-"children":[
-"menu##icons#header__top"
-],
-"props":{
-  "blockClass":"header-icon-top"
-}
-  },
-  "menu##icons#header__top":{
-    "children":[
-      "menu-item#shop1",
-      "menu-item#shop2",
-      "menu-item#shop3"
-    ],
-    "props":{
-      "blockClass":"header-menu-icon1"
-    }
-  },
-  "menu-item#shop1": {
     "props": {
-      "id": "menu-item-shop",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "phone",
-        "text": "3124329632",
-        "blockClass":"item-phone"
-      },
-      "iconProps": {
-        "id": "inf-star",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        //"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
+      "colGap": 10,
+      "horizontalAlign": "right",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
     }
   },
-  "menu-item#shop2": {
-    "props": {
-      "id": "menu-item-shop",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "blockClass":"item-email",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "info@happypets.co.com"
-      },
-      "iconProps": {
-        "id": "sti-discount",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        //"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
-    }
-  },
-  "menu-item#shop3": {
-    "props": {
-      "id": "menu-item-shop",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "blockClass":"item-hour",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Lun-Sab:9:00 AM- 6:00 PM"
-      },
-      "iconProps": {
-        "id": "sti-clock",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        //"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
-    }
-  },
-  
-  "flex-layout.row#header__section--socialMedia":{
-"children":[
-  "menu##icons#header__top--right"
-]
-  },
-  "menu##icons#header__top--right":{
-    "children":[
-      "menu-item#shop4",
-      "menu-item#shop5",
-      "menu-item#shop6"
-    ],
-    "props":{
-      "blockClass":"header-menu-icon2"
-    }
-  },
-  "menu-item#shop4": {
-    "props": {
-      "id": "menu-item-instagram",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "phone",
-        "text": "Instagram",
-        "blockClass":"item-instagram"
-      },
-      "iconProps": {
-        "id": "sti-check--filled",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        //"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
-    }
-  },
-  "menu-item#shop5": {
-    "props": {
-      "id": "menu-item-shop",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "blockClass":"item-facebook",
-        "noFollow": false,
-        "tagTitle": "facebook icon",
-        "text": "Facebook"
-      },
-      "iconProps": {
-        "id": "sti-close--line",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        //"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
-    }
-  },
-  "menu-item#shop6": {
-    "props": {
-      "id": "menu-item-shop",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "blockClass":"item-hour",
-        "noFollow": false,
-        "tagTitle": "Whatsapp",
-        "text": "WhatsApp"
-      },
-      "iconProps": {
-        "id": "nav-minus",
-        "size": 16,
-        "viewBox": "0 0 16 16",
-        //"activeClassName": "rebel-pink",
-        "mutedClassName": "c-action-primary"
-      },
-      "iconToTheRight": true
-    }
-  },
-  
   //inicia segunda fila header
   "header-row#2-desktop": {
-   "title": "Header inferior",
+    "title": "Header inferior",
     "children": [
       "logo#header__top--logo",
       "header-spacer",
       "vtex.menu@2.x:menu#websites",
       "search-bar",
-     //"modal-trigger#lupa",
+      //"modal-trigger#lupa",
       //"login",
       "minicart.v2"
-
     ],
     "props": {
       "blockClass": "header__top",
@@ -234,28 +79,21 @@
       "href": "/"
     }
   },
-  "modal-trigger#lupa":{
-"children":[
-  "flex-layout.row#search",
-  "modal-layout#search"
-]
+  "modal-trigger#lupa": {
+    "children": ["flex-layout.row#search", "modal-layout#search"]
   },
-  "flex-layout.row#search":{
-"children":[
-  "image#search"
-]
+  "flex-layout.row#search": {
+    "children": ["image#search"]
   },
-  "image#search":{
-"props":{
-  "blockClass":"header-search",
-  "src":"assets/img/lupa-blanca.png",
-  "maxWidth":20
-}
+  "image#search": {
+    "props": {
+      "blockClass": "header-search",
+      "src": "assets/img/lupa-blanca.png",
+      "maxWidth": 20
+    }
   },
-  "modal-layout#search":{
-    "children":[
-      "search-bar"
-    ]
+  "modal-layout#search": {
+    "children": ["search-bar"]
   },
   "search-bar": {
     "props": {
@@ -289,4 +127,3 @@
     }
   }
 }
-

@@ -1,16 +1,16 @@
-/* @font-face {
+ @font-face {
     font-family: 'Dosis';
-    src: url( "assets/fonts/Dosis-regular.ttf");
+    src: url(assets/fonts/Dosis-regular.ttf);
     font-weight: bold;
   }
 
   @font-face {
-    font-family: 'Dosis';
-    src: url( "assets/fonts/Dosis-semibold.ttf");
+    font-family: 'Dosis-semibold';
+    src: url(assets/fonts/Dosis-semibold.ttf);
     font-weight: bold;
   }
   @font-face {
-    font-family: 'Dosis';
-    src: url( "assets/fonts/Dosis-bold.ttf");
+    font-family: 'Dosis-bold';
+    src: url(assets/fonts/Dosis-bold.ttf);
     font-weight: bold;
-  } */
+  } 
