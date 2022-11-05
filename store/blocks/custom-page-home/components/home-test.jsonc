@@ -1,0 +1,40 @@
+{
+  "store.custom#home-test": {
+    "blocks": [
+      "slider-layout#home__slider--children",
+      "list-context.image-list#home__slider--list",
+      "flex-layout.row#home__section--video",
+      "responsive-layout.desktop#home__info--desktop",
+      "responsive-layout.tablet#home__info--tablet"
+      //"responsive-layout.phone#home__info--phone"
+    ]
+  },
+  "responsive-layout.desktop#home__info--desktop": {
+    "children": ["rich-text#desktop"]
+  },
+  "responsive-layout.tablet#home__info--tablet": {
+    "children": ["rich-text#tablet"]
+  },
+  "responsive-layout.phone#home__info--phone": {
+    "children": ["rich-text#phone"]
+  },
+
+  "rich-text#desktop": {
+    "props": {
+    "text": "# Resolucion de escritorio.",
+     "blockClass": "title"
+    }
+  },
+  "rich-text#tablet": {
+    "props": {
+      "text": "# Resolucion de  tablet.",
+      "blockClass": "title"
+    }
+  },
+  "rich-text#phone": {
+    "props": {
+      "text": "# Resolucion de movil.",
+      "blockClass": "title"
+    }
+  }
+}

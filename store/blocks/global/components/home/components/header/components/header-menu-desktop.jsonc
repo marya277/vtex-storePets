@@ -1,0 +1,433 @@
+{
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#inicio",
+      "menu-item#productos",
+      "menu-item#spa",
+      "menu-item#contacto"
+    ],
+    "props":{
+      "title": "menu-desktop", 
+      "blockClass":"menu-blocks-desktop"
+    }
+  },
+  "menu-item#inicio": {
+    "props": {
+      "id": "menu-item-inicio",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "title inicio",
+        "text": "INICIO",
+        "blockClass":"menu-item-desktop"
+      }
+    
+    }
+  },
+  "menu-item#productos": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "title inicio",
+        "text": "PRODUCTOS",
+        "blockClass":"menu-item-desktop"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#producto"] // Defining a submenu
+  },
+  "vtex.menu@2.x:submenu#producto": {
+    "children": [
+      "menu-item#category__products--one", 
+      "menu-item#category__products--two",
+      "menu-item#category__products--three",  
+      "menu-item#category__products--four",
+      "menu-item#category__products--five",
+      "menu-item#category__products--six",
+      "menu-item#category__products--seven",
+      "menu-item#category__products--eight",
+      "menu-item#category__products--nine",
+      "menu-item#category__products--ten",
+      "menu-item#category__products--eleven",
+      "menu-item#category__products--twelve",
+      "menu-item#category__products--thirteen"
+      //"vtex.menu@2.x:menu#submenushop"
+    ],
+    "props": {
+     "orientation": "vertical"
+    }
+   },
+  
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": [
+      
+    ]
+  },
+  "menu-item#spa": {
+    "props": {
+      "id": "menu-item-spa",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "title -spa",
+        "text": "SPA",
+        "blockClass":"menu-item-desktop"
+      }
+    
+    }
+  },
+  "menu-item#contacto": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "title contacto",
+        "text": "CONTACTO",
+        "blockClass":"menu-item-desktop"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#contacto"] // Defining a submenu contacto
+  },
+  "vtex.menu@2.x:submenu#contacto": {
+    "children": [
+      "menu-item#category__contacto--one", 
+      "menu-item#category__contacto--two"
+        ],
+    "props": {
+      "orientation": "vertical"
+     }
+  },
+  "menu-item#category__products--one": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "ropa title",
+      "text": "ROPA"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--two": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": " arnes title",
+      "text": "ARNES/PECHERA"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+    },
+   "menu-item#category__products--three": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": " arnes title",
+      "text": "CAMAS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--four": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "cargadores title",
+      "text": "CARGADORES"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--five": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "collares title",
+      "text": "COLLARES Y CORREAS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--six": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "comederos title",
+      "text": "COMEDEROS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--seven": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "juguetes",
+      "text": "JUGUETES"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--eight": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "bonos title",
+      "text": "BONOS DE REGALO"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--nine": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "aseo title",
+      "text": "ASEO Y BELLEZA"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--ten": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "gatitos title",
+      "text": "PARA GATITOS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--eleven": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "placas title",
+      "text": "PLACAS DE IDENTIFICACION"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--twelve": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "snacks title",
+      "text": "SNACKS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__products--thirteen": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "otros title",
+      "text": "OTROS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__contacto--one": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "escribenos title",
+      "text": "ESCRIBENOS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+   "menu-item#category__contacto--two": {
+    "props": {
+     "id": "category-one",
+     "type": "custom",
+     "itemProps": {
+      "type": "external",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": " nosotros title ",
+      "text": "NOSOTROS"
+     },
+     "iconProps": {
+      "id": "nav-arrow--right",
+      "size": 16,
+      "viewBox": "0 0 16 16",
+      //"activeClassName": "rebel-pink",
+      "mutedClassName": "c-action-primary"
+    },
+    "iconToTheRight": true
+    }
+   },
+  "vtex.menu@2.x:menu#submenucontacto": {
+    "children": [
+      
+    ]
+  }
+
+}

@@ -1,0 +1,44 @@
+{
+"rich-text#contacto":{
+    "title":"telefono-header",
+    "props":{
+     "text":"3124329632",
+     "blockClass":"telefono__header"
+}
+},
+ "rich-text#email":{
+        "title":"email-header",
+        "props":{
+        "text":"info@happypetsco.com",
+        "blockClass":"email__header"    
+    }
+    },
+    "rich-text#horario":{
+        "title":"horario-header",
+        "props":{
+        "text":"Lun - Sáb: 9:00 AM - 6:00 PM",
+        "blockClass":"horario__header"
+    }
+    },
+    "rich-text#instagram":{
+        "title":"instagram-header",
+        "props":{
+        "text":"Instagram",
+        "blockClass":"instagram__header"
+    }
+    },
+     "rich-text#facebook":{
+            "title":"facebook-header",
+            "props":{
+             "text":"Facebook",
+            "blockClass":"facebook__header"
+        }
+        },
+        "rich-text#whatsapp":{
+            "title":"whatsapp-header",
+            "props":{
+             "text":"WhastApp",
+            "blockClass":"whatsapp__header"
+        }
+        }
+}

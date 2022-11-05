@@ -1,0 +1,85 @@
+.paragraph--section_one--title{
+color: aliceblue;
+}
+.wrapper--title-products{
+    text-align: center;
+}
+.headingLevel1--title-products{
+    color:rgb(60, 41, 124);
+   
+}
+.wrapper--text-email{
+    color: white;
+}
+
+.paragraph--texto-tienda1,.paragraph--texto-tienda5{
+    color:rgb(237, 78, 134);
+    font-size: 34px;
+    font-weight:700;
+    font-family:Dosis, sans-serif;
+    
+}
+
+.paragraph--texto-tienda2{
+    color:#000000;
+    font-size: 34px;
+    font-weight:700;
+    font-family:Dosis, sans-serif;
+
+}
+.paragraph--texto-tienda5{
+    margin-top:0;
+}
+
+.paragraph--texto-tienda2{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.paragraph--texto-tienda1{
+    margin-top: 100px;
+    margin-bottom:0;
+}
+/* .paragraph--texto-tienda1{
+    color:red;
+} */
+.container--flex__title{
+    display: flex;
+    justify-content: center;
+}
+.paragraph--text-categoria-home1{
+    font-family: Barlow, sans-serif;
+    font-size:13px;
+color: rgb(138, 138, 138);
+}
+.paragraph--text-categoria-home2{
+    font-family: sans-serif;
+    font-weight: 600;
+    size: 22px;
+    color: #2eb9d6;
+}
+.paragraph--text-categoria-home3{
+    font-family:Dosis, sans-serif; 
+    font-weight: 600;
+    size: 18px;
+    color:#f3c404
+}
+.paragraph--video__title{
+    color:#ed4e86;
+    font-weight: 600;
+    font-family: Dosis,sans-serif;
+    font-size: 57px;
+    margin-top: 50px;
+}
+.container--title-products{
+    background-color: rgb(234, 234, 234);
+}
+.link--email__header{
+    text-decoration: none;
+    color: white;
+
+}
+/*rich-text header-top*/
+.paragraph--telefono__header,.paragraph--horario__header,.paragraph--instagram__header,.paragraph--facebook__header,.paragraph--whatsapp__header{
+    color:white;
+}

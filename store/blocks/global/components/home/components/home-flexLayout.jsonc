@@ -1,0 +1,88 @@
+{
+  "flex-layout.row#home__section--video":{
+    "title":"seccion uno", 
+    "children":[
+      "flex-layout.col#section__one--text",
+     "flex-layout.col#section__one--image"
+
+    ],
+    "props":{
+      "blockClass": "home__section--one",
+      "colSizing": "equal",
+      "horizontalAlign":"center",
+      "paddingTop":5,
+      "blockclass":"flex-section_one"
+
+    }
+  },
+  "flex-layout.col#section__one--text":{
+    "children":[
+      "rich-text#section__one--paragraph1",
+      "rich-text#section__one--paragraph2",
+      "rich-text#section__one--paragraph3"
+    ],
+    "props":{
+      "blockClass":"row-info-video",
+      "blockclass":"flex-video-pets",
+      "horizontalAlign":"center",
+      "verticalAlign":"middle",
+      "rowGap":0
+    }
+  },
+   "rich-text#section__one--title":{
+    "props":{
+      "blockClass": "video__title",
+      "text": "Nuestra tienda",
+      "textAlign":"center"
+     
+    } 
+  },
+  "rich-text#section__one--paragraph1":{
+    "props":{
+      "text":"Estamos ubicados en",
+      "textPosition":"center",
+      "textAlignment": "CENTER",
+      "blockClass":"texto-tienda1"
+    }
+  },
+  "rich-text#section__one--paragraph2":{
+    "props":{
+      "text": "Av cra 15 # 140-14 \n Al lado de Lili Pink\n  Bogotá D.C.Colombia",
+      "textPosition":"center",
+      "textAlignment": "CENTER",
+      "blockClass":"texto-tienda2"
+    }
+  },
+  "rich-text#section__one--paragraph3":{
+    "props":{
+      "text": "Tel +57 (1) 7034727 \n Cel : 312 4329632 ",
+      "textPosition":"center",
+      "textAlignment": "CENTER",
+      "blockClass":"texto-tienda5"
+    }
+  },
+ 
+  "flex-layout.col#section__one--image":{
+    "children":[
+      "rich-text#section__one--title",
+      "video#background"
+    ], 
+    "props":{
+      "blockClass":" video-home",
+      "preventVerticalStretch":true
+    }
+  }, 
+  
+  "video#background": {
+    "props": {
+      "width": "100%",
+      "height": "100%",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://youtu.be/zloiRaQ-7v4",
+      "blockClass": "videoEl"
+    }
+  }
+
+}
