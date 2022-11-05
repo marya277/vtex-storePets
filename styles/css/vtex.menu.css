@@ -8,9 +8,10 @@
     background-color: rgb(46, 185, 214);
 } */
  .styledLinkContent{
-    font-style:Dosis, sans-serif;;
+    font-style:sans-serif;
     font-weight: 800;
     font-size: 16px;
+    /*color:#595656 ;*/
 }
 .styledLinkContainer:hover{
     background-color:rgb(46, 185, 214);

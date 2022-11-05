@@ -6,16 +6,12 @@ color: aliceblue;
 }
 .headingLevel1--title-products{
     color:rgb(60, 41, 124);
-
+   
 }
 .wrapper--text-email{
     color: white;
 }
-.paragraph--text-phone,.paragraph--text-schedule, .paragraph--text-email,.paragraph--text-socialMedia1,.paragraph--text-socialMedia2,.paragraph--text-socialMedia3 {
-    color: white;
-    font-size: small;
 
-}
 .paragraph--texto-tienda1,.paragraph--texto-tienda5{
     color:rgb(237, 78, 134);
     font-size: 34px;
@@ -77,4 +73,13 @@ color: rgb(138, 138, 138);
 }
 .container--title-products{
     background-color: rgb(234, 234, 234);
+}
+.link--email__header{
+    text-decoration: none;
+    color: white;
+
+}
+/*rich-text header-top*/
+.paragraph--telefono__header,.paragraph--horario__header,.paragraph--instagram__header,.paragraph--facebook__header,.paragraph--whatsapp__header{
+    color:white;
 }

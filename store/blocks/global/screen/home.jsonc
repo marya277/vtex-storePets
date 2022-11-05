@@ -3,7 +3,7 @@
     "blocks": [
       "slider-layout#home__slider--children",
       //vtex "list-context.image-list#home__slider--list",
-      //"responsive-layout.phone#home__info--phone",
+      "responsive-layout.phone#home__info--phone",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.tablet#home__info--tablet",
       "responsive-layout.desktop#home__info--desktop",

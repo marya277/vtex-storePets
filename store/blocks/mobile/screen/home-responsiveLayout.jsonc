@@ -1,7 +1,15 @@
 {
   "responsive-layout.phone#home__info--phone": {
-    "title": "componente telefono"
-//"children": ["rich-text#home__info--phone"]
+    "title": "componente telefono",
+    "children": ["rich-text#home__info--phone"]
+  },
+  "rich-text#home__info--phone":{
+    "props": {
+      "text": "## Nuevos productos",
+      "blockClass": "title-info-mobile",
+      "textAlign":"CENTER",
+      "textPosition":"CENTER"
+    }
   },
  
   "responsive-layout.tablet#home__info--tablet": {

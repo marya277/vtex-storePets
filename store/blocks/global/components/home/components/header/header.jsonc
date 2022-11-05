@@ -9,7 +9,10 @@
   },
   "header-layout.desktop": {
     "title": "Header Desktop",
-    "children": ["flex-layout.row#header__top", "header-row#2-desktop"]
+    "children": ["flex-layout.row#header__top", "header-row#2-desktop"],
+    "props":{
+      "blockClass": "header-principal"
+  }
   },
 
   "flex-layout.row#header__top": {
@@ -18,23 +21,36 @@
       "flex-layout.col#col__header--redes"
     ],
     "props": {
-      "blockClass": "col-info--header"
+      "blockClass":"col__info--header"
     }
   },
   "flex-layout.col#col__header--info": {
     "children": ["flex-layout.row#row__header--top"]
   },
   "flex-layout.row#row__header--top": {
-    "children": ["rich-text#contacto", "rich-text#email", "rich-text#horario"],
+    "children": [
+      //"image#col_contacto",
+      "rich-text#contacto", 
+      "rich-text#email", 
+      "rich-text#horario"
+    ],
     "props": {
       "colGap": 10,
       "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "preventVerticalS,tretch": true,
+      "fullWidth": true,
+      "blockClass": "row-info-contacto"
     }
   },
+ /*  "image#col_contacto":{
+    "props": {
+      "blockClass": "img-contact",
+      "src": "assets/img/phone.png",
+      "maxHeight": 24
+    } 
+  }, */
 
   "flex-layout.col#col__header--redes": {
     "children": ["flex-layout.row#row__header--top--redes"]
@@ -51,7 +67,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass ":"row-redes-sociales"
     }
   },
   //inicia segunda fila header
