@@ -1,0 +1,318 @@
+{
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header__menu"],
+    "props":{
+      "blockClass":"drawer-mobile"
+    }
+    //"blocks": ["drawer-trigger"]
+  },
+  "drawer-trigger": {
+    "children": ["rich-text#menu"]
+  },
+  "rich-text#menu": {
+    "props": {
+      "text": "Menú"
+    }
+  },
+  "menu#header__menu": {
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "menu-item#department__four"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department__one": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.bing.com/?setLang=es",
+        "noFollow": true,
+        "tagTitle": "inico title",
+        "text": "INICIO"
+      }
+    }
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "department-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "productos Title",
+        "text": "PRODUCTOS"
+      }
+    },
+    "blocks": ["submenu.accordion#department__two"]
+  },
+  "submenu.accordion#department__two": {
+    "children": ["menu#department__two"]
+  },
+  "menu#department__two": {
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__two",
+      "menu-item#category__three",
+      "menu-item#category__four",
+      "menu-item#category__five",
+      "menu-item#category__six",
+      "menu-item#category__seven",
+      "menu-item#category__eight",
+      "menu-item#category__nine",
+      "menu-item#category__ten",
+      "menu-item#category__eleven",
+      "menu-item#category__twelve",
+      "menu-item#category__thirteen"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "ropa title",
+        "text": "ROPA"
+      }
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": " pechera title",
+        "text": "ARNÉS/ PECHERA"
+      }
+    }
+  },
+  "menu-item#category__three": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": " arnes title",
+        "text": "CAMAS"
+      }
+    }
+  },
+  "menu-item#category__four": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "cargadores title",
+        "text": "CARGADORES"
+      }
+    }
+  },
+  "menu-item#category__five": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "collares title",
+        "text": "COLLARES Y CORREAS"
+      }
+    }
+  },
+  "menu-item#category__six": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "comederos title",
+        "text": "COMEDEROS"
+      }
+    }
+  },
+  "menu-item#category__seven": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "juguetes",
+        "text": "JUGUETES"
+      }
+    }
+  },
+  "menu-item#category__eight": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "bonos title",
+        "text": "BONOS DE REGALO"
+      }
+    }
+  },
+  "menu-item#category__nine": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "aseo title",
+        "text": "ASEO Y BELLEZA"
+      }
+    }
+  },
+  "menu-item#category__ten": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "gatitos title",
+        "text": "PARA GATITOS"
+      }
+    }
+  },
+  "menu-item#category__eleven": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "placas title",
+        "text": "PLACAS DE IDENTIFICACION"
+      }
+    }
+  },
+  "menu-item#category__twelve": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "snacks title",
+        "text": "SNACKS"
+      }
+    }
+  },
+  "menu-item#category__thirteen": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "otros title",
+        "text": "OTROS"
+      }
+    }
+  },
+  //AQUI TERMINA MENU PRODUCTOS DRAWER
+  "menu-item#department__three": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.bing.com/?setLang=es",
+        "noFollow": true,
+        "tagTitle": " spa title",
+        "text": "SPA"
+      }
+    }
+  },
+  "menu-item#department__four": {
+    "props": {
+      "id": "department-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "contacto Title",
+        "text": "CONTACTO"
+      }
+    },
+    "blocks": ["submenu.accordion#department__four"]
+  },
+  "submenu.accordion#department__four": {
+    "children": ["menu#department__ four--one"]
+  },
+  "menu#department__ four--one": {
+    "children": [
+      "menu-item#category#four__one",
+      "menu-item#category#four__two"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#category#four__one": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "escribenos title",
+        "text": "ESCRIBENOS"
+      }
+    }
+  },
+  "menu-item#category#four__two": {
+    "props": {
+      "id": "category-one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "nosotros title",
+        "text": "NOSOTROS"
+      }
+    }
+  },
+  "rich-text#test-app-version": {
+    "props": {
+      "text": "Test App Versión"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "modal-trigger#home__modal--children":{
+        "children": [
+          "rich-text#home__modal--trigger",
+          "modal-layout#home__modal--layout"
+        ]
+       },
+       "rich-text#home__modal--trigger":{
+        "props":{
+          "text":"Terminos y condiciones"
+        }
+       },
+      
+       "modal-layout#home__modal--layout":{
+        "children":[
+          "rich-text#home__modal--content"
+        ]
+       },
+       "rich-text#home__modal--content":{
+        "props": {
+          "text": "#Terminos y condiciones \n Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend, neque id auctor tempor, sapien nibh tempor nisi, in dignissim ex elit vitae nisi. Donec vel faucibus sem, sed cursus lectus. Aliquam semper malesuada ultrices. Curabitur in mi scelerisque, mollis leo vitae, consectetur dolor. Praesent ut nulla iaculis, lobortis neque."
+        }
+       },
+       "modal-trigger#home__modal--event":{
+        "children":[
+          "modal-layout#home__modal--event"
+        ],
+        "props":{
+          "trigger": "event",
+          "customPixelEventName": "pageView"
+        }
+       },
+       "modal-layout#home__modal--event":{
+        "children":[
+          "modal-header#home__modal--event",
+       "rich-text#home__modal--event-content"
+       
+        ]
+       },
+       "rich-text#home__modal--event-content":{
+        "props":{
+          "text": "Evento de DOM Loaded"
+        }
+       },
+       "modal-header#home__modal--event":{
+        "props":{
+          "showCloseButton":true
+        }
+       }
+}

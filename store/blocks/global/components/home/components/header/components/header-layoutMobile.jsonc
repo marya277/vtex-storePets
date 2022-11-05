@@ -1,0 +1,24 @@
+{
+  "header-layout.mobile": {
+    "title": "Header mobile",
+    "children": [
+      "header-row#2-Mobile", 
+    "logo#header__top--logo"
+  ],
+    "props": {
+      "blockClass": "logo-mobile"
+    }
+  },
+  "header-row#2-Mobile": {
+    "title": "Header medio",
+    "children": [
+      "drawer#header__mobile--menu", 
+      "modal-trigger#lupa",
+      "login", 
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__middle"
+    }
+  }
+}

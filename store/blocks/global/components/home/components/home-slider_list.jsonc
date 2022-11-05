@@ -1,0 +1,68 @@
+{
+   "list-context.image-list#home_slider--list": {
+    "title": "lista de slider",
+"children": ["slider-layout#home_slider--list"],    
+"props": {
+      "preload": true,
+      "images": [
+        {
+        "image": "assets/img/main_slide_01.jpg",
+          "description": "slide 1"
+        },
+        {
+          "image": "assets/img/main_slide_02.jpg",
+          "description": "slide 2"
+        },
+        {
+          "image": "assets/img/main_slide_03.jpg",
+          "description": "slide 3"
+        }
+      ]
+    }
+  },
+  
+  "slider-layout#home_slider--list": {
+    "title": "slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home_slider"
+    }
+  },
+  "list-context.image-list#home__slider--list": {
+    "title": "lista de imagenes",
+    "children": ["slider-layout#home__slider--list"],
+    "props": {
+        "preload": true,
+        "images": [
+            {
+                "image": "assets/img/main_slide_01.jpg",
+                "description": "Slider 1"
+            },
+            {
+                "image": "assets/img/main_slide_02.jpg",
+                "description": "Slider 2"
+            }
+        ]
+    }
+  },
+  "slider-layout#home__slider--list": {
+    "title": "Slider con lista",
+    "props": {
+        "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
+        },
+        "infinite": true,
+        "blockClass": "home__slider",
+        "fullWidth": false
+    }
+  }
+
+
+}
