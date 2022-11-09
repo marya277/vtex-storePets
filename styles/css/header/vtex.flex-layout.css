@@ -1,3 +1,15 @@
 .flexRow--col__info--header {
     background-color:rgb(60, 41, 124);
 }
+.flexCol--row-info-contacto{
+    display: flex;
+    flex-direction: row;
+}
+.flexCol--row-info-redes{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexRow--home__section--spa{
+    background-color:rgb(255, 194, 193) ;
+}

@@ -17,7 +17,10 @@
     "children": [
       "rich-text#home__info--tablet",
       "flex-layout.row#home__section1-tablet",
-      "flex-layout.row#home__section2-tablet"
+      "flex-layout.row#home__section2-tablet",
+      "flex-layout.row#home__section--video",
+      "flex-layout.row#home__categorias"
+    
     ]
   },
   "flex-layout.row#home__section1-tablet":{
@@ -47,14 +50,14 @@
       "vertical-align":"middle"
     }
   }, 
-  "rich-text#home__info--mobile": {
+/*   "rich-text#home__info--mobile": {
     "props": {
       "text": "## Nuevos productos",
       "blockClass": "title-info-mobile",
       "textAlign":"CENTER",
       "textPosition":"CENTER"
     }
-  },
+  }, */
   "rich-text#home__info--tablet": {
     "props": {
       "text": "## Nuevos productos.",
@@ -73,7 +76,7 @@
     "props":{
       "blockClass":"category-two",
       "marginLeft":5,
-      "horizontalAlign":"middle"
+      "horizontalAlign":"Middle"
     }
   },
 "flex-layout.col#section__tablet--item-3":{

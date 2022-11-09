@@ -13,9 +13,14 @@
     font-size: 16px;
     /*color:#595656 ;*/
 }
-.styledLinkContainer:hover{
+ .styledLinkContainer:hover{
     background-color:rgb(46, 185, 214);
 } 
 .styledLinkContent:hover{
     color:white;
+} 
+
+.styledLinkContainer--item-drawer{
+    border-bottom-style:inset;
+    /*padding:15px;*/
 }

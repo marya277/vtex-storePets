@@ -18,59 +18,184 @@
   "flex-layout.row#header__top": {
     "children": [
       "flex-layout.col#col__header--info",
+      "header-spacer",
+  
       "flex-layout.col#col__header--redes"
     ],
     "props": {
       "blockClass":"col__info--header"
     }
   },
-  "flex-layout.col#col__header--info": {
-    "children": ["flex-layout.row#row__header--top"]
-  },
-  "flex-layout.row#row__header--top": {
+  "flex-layout.col#col__header--info":{
     "children": [
-      //"image#col_contacto",
-      "rich-text#contacto", 
-      "rich-text#email", 
-      "rich-text#horario"
+      "flex-layout.row#col__header--telefono",
+      "flex-layout.row#col__header--correo",
+      "flex-layout.row#col__header--horario"
     ],
     "props": {
-      "colGap": 10,
+      "rowGap":2,
+      "horizontalAlign": "left",
+      //"verticalAlign": "center",
+      //"preventHorizontalStretch": true,
+      //"preventVerticalS,tretch": true,
+      "width":"50%",
+      "blockClass": "row-info-contacto"
+    }
+    
+  },
+  "flex-layout.row#col__header--telefono":{
+    "children":[
+      "icon#col_contacto",
+      "rich-text#contacto"
+    ],
+    "props": {
+      "colGap":4,
       "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalS,tretch": true,
-      "fullWidth": true,
-      "blockClass": "row-info-contacto"
+      "width":"30%",
+      "blockClass": "row-info-telefono",
+      "marginTop":5
     }
   },
- /*  "image#col_contacto":{
+  "icon#col_contacto":{
     "props": {
-      "blockClass": "img-contact",
-      "src": "assets/img/phone.png",
-      "maxHeight": 24
-    } 
-  }, */
-
-  "flex-layout.col#col__header--redes": {
-    "children": ["flex-layout.row#row__header--top--redes"]
+      "id": "inf-star",
+      "size":20,
+      "blockClass":"icon-contacto"
+    }
   },
-  "flex-layout.row#row__header--top--redes": {
+  "flex-layout.row#col__header--correo":{
+    "children":[
+      "icon#col_correo",
+      "rich-text#email"
+    ],
+    "props": {
+      "colGap":4,
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalS,tretch": true,
+      "width":"30%",
+      "blockClass": "row-info-correo",
+      "marginTop":5
+    }
+  },
+  "icon#col_correo":{
+    "props":{
+      "id":"sti-discount",
+      "size":20
+    }
+  },
+ 
+  "icon#col_horario":{
+    "props": {
+      "id": "sti-clock",
+      "size":20
+    }
+  },
+  "flex-layout.row#col__header--horario":{
     "children": [
-      "rich-text#instagram",
-      "rich-text#facebook",
+      "icon#col_horario",
+      "rich-text#horario"
+    ],
+    "props": {
+      "colGap":4,
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalS,tretch": true,
+      "width":"30%",
+      "blockClass": "row-info-horario",
+      "marginTop":5
+    }
+    
+  },
+  "flex-layout.col#col__header--redes":{
+    "children": [
+      "flex-layout.row#col__header--instagram",
+      "flex-layout.row#col__header--facebook",
+      "flex-layout.row#col__header--whatsapp"
+    ],
+    "props": {
+      "colGap":10,
+      "horizontalAlign": "right",
+      "verticalAlign": "middle",
+      //"preventHorizontalStretch": true,
+      //"preventVerticalS,tretch": true,
+      
+      "width":"50%",
+      "blockClass": "row-info-redes"
+      
+    }
+  },
+  "flex-layout.row#col__header--instagram":{
+    "children": [
+      "icon#col_instagram",
+      "rich-text#instagram"
+    ],
+    "props": {
+      "colGap":2,
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalS,tretch": true,
+      "width":"30%",
+      "blockClass": "row-info-instagram"
+      //"marginTop":3
+    }
+  },
+  "icon#col_instagram":{
+    "props": {
+      "id": "sti-instagram",
+      "size":20
+  }
+},
+  "flex-layout.row#col__header--facebook":{
+    "children": [
+      "icon#col_facebook",
+      "rich-text#facebook"
+    ],
+    "props": {
+      "colGap":2,
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+     "preventHorizontalStretch": true,
+      "preventVerticalS,tretch": true,
+      "width":"30%",
+      "blockClass": "row-info-facebook"
+    }
+  },
+  "icon#col_facebook":{
+    "props": {
+      "id": "nav-plus",
+      "size":20
+    }
+  },
+  "flex-layout.row#col__header--whatsapp":{
+    "children": [
+      "icon#col_whatsapp",
       "rich-text#whatsapp"
     ],
     "props": {
-      "colGap": 10,
-      "horizontalAlign": "right",
+      "colGap":2,
+      "horizontalAlign": "left",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass ":"row-redes-sociales"
+      "preventVerticalS,tretch": true,
+      "width":"30%",
+      "blockClass": "row-info-whatsapp"
     }
   },
+  "icon#col_whatsapp":{
+    "props": {
+      "id": "nav-minus",
+      "size":20
+    }
+  },
+
+  
   //inicia segunda fila header
   "header-row#2-desktop": {
     "title": "Header inferior",
@@ -114,24 +239,24 @@
   },
   "search-bar": {
     "props": {
-      "blockClass": "header-search",
+
       "maxWidth": 250
     }
   },
-  "modal-trigger#header__top--login": {
+/*   "modal-trigger#header__top--login": {
     "children": [
-      "rich-text#header__top--login",
-      "modal-layout#header__top--login"
+      "rich-text#header__top--login"
+     // "modal-layout#header__top--login"
     ]
-  },
-  "rich-text#header__top--login": {
+  }, */
+ /*  "rich-text#header__top--login": {
     "props": {
       "text": "login"
     }
   },
   "modal-layout#header__top--login": {
     "children": ["login-content"]
-  },
+  }, */
 
   "login": {
     "props": {
@@ -144,3 +269,4 @@
     }
   }
 }
+

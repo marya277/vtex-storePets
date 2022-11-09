@@ -3,10 +3,38 @@
     "title": "Header mobile",
     "children": [
       "header-row#2-Mobile", 
-    "logo#header__top--logo"
+      "flex-layout.row#mobile__logo"
   ],
     "props": {
-      "blockClass": "logo-mobile"
+      "blockClass":"logo-mobile"
+    }
+  },
+  "flex-layout.row#mobile__logo":{
+"children":[
+  "flex-layout.row#mobile__container--logo"
+ // "logo#header__top--mobile"
+],
+"props":{
+  "blockClass":"flex-logo-mobile",
+  "horizontalAlign":"center"
+}
+  },
+  "flex-layout.row#mobile__container--logo":{
+    "children":[
+      "logo#header__top--mobile"
+    ],
+    "props":{
+      
+    }
+  },
+  "logo#header__top--mobile":{
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo1.jpg",
+      "width": 200,
+      "href": "/",
+      "blockClass":"img-logo-mobile",
+      "horizontalAlign":"center"
     }
   },
   "header-row#2-Mobile": {
@@ -22,3 +50,4 @@
     }
   }
 }
+
