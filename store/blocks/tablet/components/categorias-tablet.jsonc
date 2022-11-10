@@ -1,0 +1,362 @@
+{
+  "rich-text#tablet__info--categorias": {
+    "props": {
+      "text": "# Nuestras categorias",
+      "blockClass": "tablet-info-categorias",
+      "textAlign": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#tablet__category--one": {
+    "children": [
+      "flex-layout.col#tablet__one--item-1",
+      "flex-layout.col#tablet__one--item-2",
+      "flex-layout.col#tablet__one--item-3",
+      "flex-layout.col#tablet__one--item-4"
+    ],
+    "props": {
+      "blockClass": "primera-categoria-tablet",
+      "colGap": 3,
+      "colSizing": "equal"
+    }
+  },
+ 
+  "flex-layout.col#tablet__one--item-1": {
+    "children": [
+      "image#home_tablet_col--one",
+      "rich-text#titulo_tablet__one--item1"
+    ],
+    "props": {
+      "blockClass": "category-tablet-one",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "rich-text#titulo_tablet__one--item1": {
+    "props": {
+      "text": "ROPA",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto1"
+    }
+  },
+  "image#home_tablet_col--one": {
+    "props": {
+      "src": "assets/img/img_category_01.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item1"
+    }
+  },
+  "flex-layout.col#tablet__one--item-2": {
+    "children": [
+      "image#home_tablet_col--two",
+      "rich-text#titulo_tablet__one--item2"
+    ],
+    "props": {
+      "blockClass": "category-tablet-two",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "rich-text#titulo_tablet__one--item2": {
+    "props": {
+      "text": "CARGADORES",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto2"
+    }
+  },
+  "image#home_tablet_col--two": {
+    "props": {
+      "src": "assets/img/img_category_02.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item2"
+    }
+  },
+  "flex-layout.col#tablet__one--item-3": {
+    "children": [
+      "image#home_tablet_col--three",
+      "rich-text#titulo_tablet__one--item3"
+    ],
+    "props": {
+      "blockClass": "category-tablet-three",
+      "marginLeft": 3
+    }
+  },
+  "rich-text#titulo_tablet__one--item3": {
+    "props": {
+      "text": "JUGUETES",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto3"
+    }
+  },
+  "image#home_tablet_col--three": {
+    "props": {
+      "src": "assets/img/img_category_03.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item3"
+    }
+  },
+  "flex-layout.col#tablet__one--item-4": {
+    "children": [
+      "image#home_tablet_col--four",
+      "rich-text#titulo_tablet__one--item4"
+    ],
+    "props": {
+      "blockClass": "category-tablet-four",
+      "marginLeft": 3
+    }
+  },
+  "rich-text#titulo_tablet__one--item4": {
+    "props": {
+      "text": "CAMAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto4"
+    }
+  },
+  "image#home_tablet_col--four": {
+    "props": {
+      "src": "assets/img/img_category_04.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item4"
+    }
+  },
+  /*segunda fila categorias*/
+  "flex-layout.row#tablet__category--two": {
+    "children": [
+      "flex-layout.col#tablet__one--item-5",
+      "flex-layout.col#tablet__one--item-6",
+      "flex-layout.col#tablet__one--item-7",
+      "flex-layout.col#tablet__one--item-8"
+    ],
+    "props": {
+      "blockClass":"segunda-categoria",
+      "colGap": 3,
+      "colSizing": "equal"
+    }
+  },
+  "flex-layout.col#tablet__one--item-5": {
+    "children": [
+      "image#home_tablet_col--five",
+      "rich-text#titulo_tablet__one--item5"
+    ],
+    "props": {
+      "blockClass": "category-tablet-five",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "rich-text#titulo_tablet__one--item5": {
+    "props": {
+      "text": "COMEDEROS/BEBEDEROS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto5"
+    }
+  },
+  "image#home_tablet_col--five": {
+    "props": {
+      "src": "assets/img/img_category_05.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item5"
+    }
+  },
+  "flex-layout.col#tablet__one--item-6": {
+    "children": [
+      "image#home_tablet_col--six",
+      "rich-text#titulo_tablet__one--item6"
+    ],
+    "props": {
+      "blockClass": "category-tablet-six",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "rich-text#titulo_tablet__one--item6": {
+    "props": {
+      "text": "ARNES/PECHERA",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto6"
+    }
+  },
+  "image#home_tablet_col--six": {
+    "props": {
+      "src": "assets/img/img_category_06.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item6"
+    }
+  },
+  "flex-layout.col#tablet__one--item-7": {
+    "children": [
+      "image#home_tablet_col--seven",
+      "rich-text#titulo_tablet__one--seven"
+    ],
+    "props": {
+      "blockClass": "category-tablet-seven",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "rich-text#titulo_tablet__one--seven": {
+    "props": {
+      "text": "COLLARES Y CORREAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto7"
+    }
+  },
+  "image#home_tablet_col--seven": {
+    "props": {
+      "src": "assets/img/img_category_07.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item7"
+    }
+  },
+  "flex-layout.col#tablet__one--item-8": {
+    "children": [
+      "image#home_tablet_col--eight",
+      "rich-text#titulo_tablet__one--eight"
+    ],
+    "props": {
+      "blockClass": "category-tablet-eight",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "rich-text#titulo_tablet__one--eight": {
+    "props": {
+      "text": "ASEO Y BELLEZA",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto8"
+    }
+  },
+  "image#home_tablet_col--eight": {
+    "props": {
+      "src": "assets/img/img_category_08.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item8"
+    }
+  },
+  /*Tercera fila categorias*/
+  "flex-layout.row#tablet__category--three": {
+    "children": [
+      "flex-layout.col#tablet__one--item-9",
+      "flex-layout.col#tablet__one--item-10",
+      "flex-layout.col#tablet__one--item-11",
+      "flex-layout.col#tablet__one--item-12"
+    ],
+    "props": {
+      "blockClass": "tercera-categoria",
+      "colGap": 3,
+      "colSizing": "equal"
+    }
+  },
+  "flex-layout.col#tablet__one--item-9": {
+    "children": [
+      "image#home_tablet_col--nine",
+      "rich-text#titulo_tablet__one--nine"
+    ],
+    "props": {
+      "blockClass": "category-tablet-nine",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "image#home_tablet_col--nine": {
+    "props": {
+      "src": "assets/img/img_category_09.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item9"
+    }
+  },
+  "rich-text#titulo_tablet__one--nine": {
+    "props": {
+      "text": "PARA GATITOS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto9"
+    }
+  },
+  "flex-layout.col#tablet__one--item-10": {
+    "children": [
+      "image#home_tablet_col--ten",
+      "rich-text#titulo_tablet__one--ten"
+    ],
+    "props": {
+      "blockClass": "category-tablet-ten",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "image#home_tablet_col--ten": {
+    "props": {
+      "src": "assets/img/img_Category_10.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item10"
+    }
+  },
+  "rich-text#titulo_tablet__one--ten": {
+    "props": {
+      "text": "SNACKS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto10"
+    }
+  },
+  "flex-layout.col#tablet__one--item-11": {
+    "children": [
+      "image#home_tablet_col--eleven",
+      "rich-text#titulo_tablet__one--eleven"
+    ],
+    "props": {
+      "blockClass": "category-tablet-eleven",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "image#home_tablet_col--eleven": {
+    "props": {
+      "src": "assets/img/img_category_11.jpg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item11"
+    }
+  },
+  "rich-text#titulo_tablet__one--eleven": {
+    "props": {
+      "text": "PLACAS DE IDENTIFICACION",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto11"
+    }
+  },
+  "flex-layout.col#tablet__one--item-12": {
+    "children": [
+      "image#home_tablet_col--twelve",
+      "rich-text#titulo_tablet__one--twelve"
+    ],
+    "props": {
+      "blockClass": "category-tablet-twelve",
+      "marginLeft": 3,
+      "vertical-align": "middle"
+    }
+  },
+  "image#home_tablet_col--twelve": {
+    "props": {
+      "src": "assets/img/img_category_12.jpeg",
+      "maxWidth": 150,
+      "blockClass": "img-tablet-item12"
+    }
+  },
+  "rich-text#titulo_tablet__one--twelve": {
+    "props": {
+      "text": "OTROS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "category-tablet-texto12"
+    }
+  }
+}

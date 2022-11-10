@@ -1,0 +1,38 @@
+{
+  "responsive-layout.phone#home__info--phone":{
+        "title": "componente movil",
+        "children": [
+         
+          "rich-text#home__info--mobile",
+          //"flex-layout.row#home__section--two",
+         // "flex-layout.row#home__section--three",
+          "flex-layout.row#home__section--video",
+          "rich-text#home__info--categorias",
+          "flex-layout.row#home__category--one",
+          "flex-layout.row#home__category--two",
+          "flex-layout.row#home__category--three",
+      
+           "rich-text#home__info--ofertas",
+         "flex-layout.row#home__ofertas--two",
+         "flex-layout.row#home__ofertas--three",
+         "flex-layout.row#home__section--spa"
+          
+        ]
+      },
+       "rich-text#home__info--mobile": {
+        "props": {
+          "text": "## Nuevos productos",
+          "blockClass": "title-info-mobile",
+          "textAlign":"CENTER",
+          "textPosition":"CENTER"
+        }
+      } ,
+      "rich-text#tablet__info--categorias": {
+        "props": {
+          "text": "## Nuestras categorias",
+          "blockClass": "phone-info-categorias",
+          "textAlign": "CENTER",
+          "textPosition": "CENTER"
+        }
+      }
+}

@@ -1,0 +1,40 @@
+{ 
+  
+  "responsive-layout.mobile#home__info--mobile":{
+    "children":[
+     // "responsive-layout.phone#home__info--phone",
+      "responsive-layout.tablet#home__info--tablet",
+      "rich-text#home__info--phone"
+    ]
+  },
+/* , */
+  "rich-text#home__info--phone":{
+    "props": {
+      "text": "## Nuevos productos",
+      "blockClass": "title-info-mobile",
+      "textAlign":"CENTER",
+      "textPosition":"CENTER"
+    }
+  },
+
+  "responsive-layout.tablet#home__info--tablet":{
+    "title": "componente tablet",
+    "children": [
+      "rich-text#home__info--tablet",
+      "flex-layout.row#home__section1-tablet",
+      "flex-layout.row#home__section2-tablet",
+      "flex-layout.row#home__section--video",
+      "rich-text#tablet__info--categorias",
+      "flex-layout.row#tablet__category--one",
+      "flex-layout.row#tablet__category--two",
+      "flex-layout.row#tablet__category--three",
+      "rich-text#home__info--ofertas",
+      "flex-layout.row#tablet__ofertas--one",
+      "flex-layout.row#tablet__ofertas--two",
+      //"flex-layout.row#tablet__ofertas--three",
+      "flex-layout.row#home__section--spa"
+      
+    ]
+  }
+
+}

@@ -1,10 +1,5 @@
 {
-  "responsive-layout.desktop#home__productos--nuevos": {
-    "children": [
-      "flex-layout.row#home__section--two",
-      "flex-layout.row#home__section--three"
-    ]
-  },
+
   "flex-layout.row#home__section--two": {
     "children": [
       "flex-layout.col#section__two--item-1",
