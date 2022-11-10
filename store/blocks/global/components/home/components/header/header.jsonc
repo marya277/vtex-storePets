@@ -35,9 +35,6 @@
     "props": {
       "rowGap":2,
       "horizontalAlign": "left",
-      //"verticalAlign": "center",
-      //"preventHorizontalStretch": true,
-      //"preventVerticalS,tretch": true,
       "width":"50%",
       "blockClass": "row-info-contacto"
     }
@@ -109,8 +106,7 @@
       "width":"30%",
       "blockClass": "row-info-horario",
       "marginTop":5
-    }
-    
+    } 
   },
   "flex-layout.col#col__header--redes":{
     "children": [
@@ -122,12 +118,8 @@
       "colGap":10,
       "horizontalAlign": "right",
       "verticalAlign": "middle",
-      //"preventHorizontalStretch": true,
-      //"preventVerticalS,tretch": true,
-      
       "width":"50%",
       "blockClass": "row-info-redes"
-      
     }
   },
   "flex-layout.row#col__header--instagram":{
@@ -143,7 +135,6 @@
       "preventVerticalS,tretch": true,
       "width":"30%",
       "blockClass": "row-info-instagram"
-      //"marginTop":3
     }
   },
   "icon#col_instagram":{
@@ -194,8 +185,6 @@
       "size":20
     }
   },
-
-  
   //inicia segunda fila header
   "header-row#2-desktop": {
     "title": "Header inferior",
@@ -204,8 +193,6 @@
       "header-spacer",
       "vtex.menu@2.x:menu#websites",
       "search-bar",
-      //"modal-trigger#lupa",
-      //"login",
       "minicart.v2"
     ],
     "props": {
@@ -243,21 +230,6 @@
       "maxWidth": 250
     }
   },
-/*   "modal-trigger#header__top--login": {
-    "children": [
-      "rich-text#header__top--login"
-     // "modal-layout#header__top--login"
-    ]
-  }, */
- /*  "rich-text#header__top--login": {
-    "props": {
-      "text": "login"
-    }
-  },
-  "modal-layout#header__top--login": {
-    "children": ["login-content"]
-  }, */
-
   "login": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
@@ -268,5 +240,6 @@
       "showIconProfile": true
     }
   }
+ 
 }
 

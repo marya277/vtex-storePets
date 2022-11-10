@@ -11,14 +11,6 @@
       "maxWidth": 300
     }
   },
-  "drawer-trigger": {
-    "children": ["rich-text#menu"]
-  },
-  "rich-text#menu": {
-    "props": {
-      "text": "Menú"
-    }
-  },
   "menu#header__menu": {
     "children": [
       "menu-item#department__one",
@@ -321,11 +313,6 @@
         "tagTitle": "nosotros title",
         "text": "NOSOTROS"
       }
-    }
-  },
-  "rich-text#test-app-version": {
-    "props": {
-      "text": "Test App Versión"
     }
   }
  

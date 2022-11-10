@@ -1,0 +1,18 @@
+{
+  "minicart.v2": {
+    "children": ["minicart-base-content"],
+    "props": {
+      "MinicartIcon": "icon#minicart__icon",
+      "variation": "drawer",
+      "itemCountMode": "total",
+      "quantityDisplay": "always",
+      "blockClass": "minicart-desktop"
+    }
+  },
+  "icon#minicart__icon": {
+    "props": {
+      "id": "inf-warning--filled",
+      "size": 20
+    }
+  }
+}

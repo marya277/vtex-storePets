@@ -4,6 +4,16 @@
 .closeIconButton--drawer-mobile{
     background-color: aqua;
 }
-/* .childrenContainer--drawer-mobile{
-    width:100%;
-} */
+.closeIconContainer--drawer-mobile::after{
+   content:"Menu";
+   color: white;
+   font-size: 20px;
+   font-family:sans-serif;
+   
+   margin-left: 10%;
+   margin-top: 15px;
+}
+.childrenContainer--drawer-mobile 
+:global(.vtex-menu-2-x-menuContainerNav){
+    width: 100%;
+}
