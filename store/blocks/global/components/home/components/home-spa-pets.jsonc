@@ -21,7 +21,7 @@
     "props": {
       "src": "assets/img/spa-deluxe.jpg",
 
-      "blockClass": "img-col-category1"
+      "blockClass": "img-col-spa"
     }
   },
   "flex-layout.col#section__spa--text": {

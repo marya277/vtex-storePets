@@ -1,10 +1,5 @@
 {
-    "flex-layout.row#home__categorias":{
-        "children": [
-        
-          
-    ]
-  },
+   
   "rich-text#home__info--categorias": {
     "props": {
       "text": "# Nuestras categorias",
@@ -51,7 +46,9 @@
     "props": {
       "src": "assets/img/img_category_01.jpg",
       "maxWidth":300,
-      "blockClass":"img-col-category1"
+      "blockClass":"img-col-category1",
+      "marginLeft":5,
+      "horizontalAlign":"center"
     }
   },
   "flex-layout.col#category__one--item-2":{
