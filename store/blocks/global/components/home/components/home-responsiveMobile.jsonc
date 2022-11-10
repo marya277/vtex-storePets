@@ -4,7 +4,19 @@
         "children": [
           //"rich-text#home__info--mobile"
           "flex-layout.row#home__section--two",
-          "flex-layout.row#home__section--three"
+          "flex-layout.row#home__section--three",
+          "flex-layout.row#home__section--video",
+          "rich-text#home__info--categorias",
+          "flex-layout.row#home__category--one",
+          "flex-layout.row#home__category--two",
+         "flex-layout.row#home__category--three",
+      
+          //  "rich-text#home__info--ofertas",
+         "flex-layout.row#home__ofertas--two",
+        "flex-layout.row#home__ofertas--three",
+        "flex-layout.row#home__ofertas--four",
+          "flex-layout.row#home__section--spa"
+          
         ]
       }
 }

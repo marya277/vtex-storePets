@@ -1,17 +1,14 @@
 {
   "drawer#header__mobile--menu": {
-    "children": ["menu#header__menu"],
+    "children": ["menu#header__menu" ],
     "props":{
       "blockClass":"drawer-mobile"
     }
     //"blocks": ["drawer-trigger"]
   },
-  "drawer-trigger": {
-    "children": ["rich-text#menu"]
-  },
-  "rich-text#menu": {
+  "search-bar": {
     "props": {
-      "text": "Menú"
+      "maxWidth": 300
     }
   },
   "menu#header__menu": {
@@ -19,22 +16,26 @@
       "menu-item#department__one",
       "menu-item#department__two",
       "menu-item#department__three",
-      "menu-item#department__four"
+      "menu-item#department__four",
+      "search-bar"
     ],
     "props": {
       "orientation": "vertical"
+     
     }
   },
   "menu-item#department__one": {
     "props": {
       "id": "department-one",
       "type": "custom",
+      "blockClass":"item-drawer",
       "itemProps": {
         "type": "external",
         "href": "https://www.bing.com/?setLang=es",
         "noFollow": true,
         "tagTitle": "inico title",
         "text": "INICIO"
+       
       }
     }
   },
@@ -42,6 +43,7 @@
     "props": {
       "id": "department-two",
       "type": "custom",
+      "blockClass":"item-drawer",
       "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
@@ -243,12 +245,14 @@
         "text": "OTROS"
       }
     }
+   
   },
   //AQUI TERMINA MENU PRODUCTOS DRAWER
   "menu-item#department__three": {
     "props": {
       "id": "department-one",
       "type": "custom",
+      "blockClass":"item-drawer",
       "itemProps": {
         "type": "external",
         "href": "https://www.bing.com/?setLang=es",
@@ -262,6 +266,7 @@
     "props": {
       "id": "department-one",
       "type": "custom",
+      "blockClass":"item-drawer",
       "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
@@ -309,10 +314,6 @@
         "text": "NOSOTROS"
       }
     }
-  },
-  "rich-text#test-app-version": {
-    "props": {
-      "text": "Test App Versión"
-    }
   }
+ 
 }

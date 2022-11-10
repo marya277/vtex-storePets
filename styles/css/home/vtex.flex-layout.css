@@ -37,5 +37,38 @@
 .flexRow--primera-seccion-producto,.flexRow--segunda-seccion-producto{
   display: none;
 }
+/* .flexRow--flex-logo-mobile{
+display: flex;
+align-items: center;
+justify-content: center;
+
+} */
  
+}
+.flexRow--primera-seccion-ofertas,.flexRow--segunda-seccion-ofertas,.flexRowContent--tercera-seccion-ofertas{
+  background-color:rgb(185, 249, 229);
+}
+
+/* .flexRowContent--row-info-telefono,.flexRowContent--row-info-correo,.flexColChild--row-info-contacto{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+} */
+.flexRowContent--row-info-telefono,.flexRowContent--row-info-correo,.flexRowContent--row-info-horario{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:2rem;
+}
+.flexRowContent--row-info-instagram,.flexRowContent--row-info-facebook,.flexRowContent--row-info-whatsapp{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:2rem;
+}
+.flexCol--row-info-redes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 330px;
 }
