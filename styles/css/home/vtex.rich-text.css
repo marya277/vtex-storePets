@@ -83,3 +83,28 @@ color: rgb(138, 138, 138);
 .paragraph--telefono__header,.paragraph--horario__header,.paragraph--instagram__header,.paragraph--facebook__header,.paragraph--whatsapp__header{
     color:white;
 }
+.headingLevel1--title-categorias,.headingLevel1--title-ofertas{
+    color:rgb(66, 48, 128);
+    font-weight:600;
+}
+.container--title-ofertas{
+    background-color:rgb(185, 249, 229);
+  }
+  .paragraph--category-store{
+    font-size:18px;
+
+  }
+ .paragraph--text-info-spa{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16;
+ }
+ .paragraph--spa__title{
+    font-weight: 500;
+    font-size: 52;
+    color:rgb(46, 185, 214)
+ }
+ .headingLevel1--title-categorias{
+    font-size: 52;
+    margin-left: 10px;
+ }

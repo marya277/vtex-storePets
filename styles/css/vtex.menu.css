@@ -13,9 +13,25 @@
     font-size: 16px;
     /*color:#595656 ;*/
 }
-.styledLinkContainer:hover{
+ .styledLinkContainer:hover{
     background-color:rgb(46, 185, 214);
 } 
 .styledLinkContent:hover{
     color:white;
+} 
+
+.accordionIcon--item-drawer{
+    visibility: hidden;
+}
+.accordionIcon--item-drawer::after{
+    content: url("assets/img/arrow_32.png");
+    visibility:visible;
+    background-color: rgb(239, 233, 233);
+}
+.styledLinkContent--item-drawer{
+    display: flex;
+    justify-content: space-between; 
+}
+.menuItem--item-drawer{
+    border-bottom: inset;
 }

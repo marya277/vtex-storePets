@@ -8,9 +8,12 @@
     }
     
   }
-.imageElement--img-category1{
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
+
+ 
+  /* logo en mobile*/
+.logoLink--img-logo-mobile{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height:auto;
 }
- 
- 
