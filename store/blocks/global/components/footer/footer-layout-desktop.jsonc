@@ -1,0 +1,147 @@
+{
+  "footer-layout.desktop": {
+    "title": "footer__layout-desktop",
+    "children": ["flex-layout.row#footer-desktop"]
+  },
+
+  "flex-layout.row#footer-desktop": {
+    "title": "footer__row-principal",
+    "children": [
+      "flex-layout.row#footer__sections",
+      "flex-layout.row#footer__pagos"
+    ],
+    "props": {
+      "blockClass": "row-footer-global"
+    }
+  },
+  "flex-layout.row#footer__sections": {
+    "children": [
+      "flex-layout.col#footer_desktop--one",
+      "flex-layout.col#footer_desktop--two",
+      "flex-layout.col#footer_desktop--three",
+      "flex-layout.col#footer_desktop--four"
+    ],
+    "props": {
+      "blockClass": "row-footer-secciones",
+      "colSizing": "equal",
+      "colGap": 10,
+      "colJustify": "between",
+      "horizontalAlign": "around"
+    }
+  },
+  "flex-layout.col#footer_desktop--one": {
+    "title": "footer__col-1",
+    "children": ["image#footer__logo", "rich-text#section__one--foter"],
+    "props": {
+      "blockClass": "col-footer-logo",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "image#footer__logo": {
+    "title": "image-logo-footer",
+    "props": {
+      "src": "assets/img/logo-pets.png",
+      "blockClass": "footer__image_logo"
+    }
+  },
+
+  "flex-layout.col#footer_desktop--two": {
+    "title": "footer__col-2",
+    "children": [
+      "rich-text#footer_section--two",
+      "flex-layout.col#footer_section--two"
+    ],
+    "props": {
+      "blockClass": "col-footer-enlaces",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#footer_section--two": {
+    "title": "footer__columna de enlaces",
+    "children": [
+      "rich-text#footer_section--two--enlace1",
+      "rich-text#footer_section--two--enlace2",
+      "rich-text#footer_section--two--enlace3",
+      "rich-text#footer_section--two--enlace4",
+      "rich-text#footer_section--two--enlace5",
+      "rich-text#footer_section--two--enlace6",
+      "rich-text#footer_section--two--enlace7"
+    ],
+    "props": {
+      "blockClass": "enlaces-footer-tienda",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#footer_desktop--three": {
+    "title": "footer__columna ubicacion",
+    "children": [
+      "rich-text#section__three--footer",
+      "flex-layout.col#footer_desktop__ubicacion"
+    ],
+    "props": {
+      "blockClass": "col-footer-ubicanos",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#footer_desktop__ubicacion": {
+    "children": [
+      "rich-text#footer_section--three-direccion",
+      "image#footer__ubicacion"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "col-footer-ubicacion"
+    }
+  },
+  "image#footer__ubicacion": {
+    "title": "image-footer-ubicacion",
+    "props": {
+      "src": "assets/img/img_ubicacion.png",
+      "maxWidth": 300,
+      "blockClass": "footer__image_maps"
+    }
+  },
+  "flex-layout.col#footer_desktop--four": {
+    "children": [
+      "rich-text#section__four--footer",
+      "flex-layout.col#footer_desktop__redes"
+    ],
+    "props": {
+      "blockClass": "col-footer-contactanos"
+    }
+  },
+  "flex-layout.col#footer_desktop__redes": {
+    "children": [
+      "rich-text#section__four--footer--correo",
+      "rich-text#section__four--footer--telefono",
+      "rich-text#section__four--footer--celular",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "col-footer-redes"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" }
+      ]
+    }
+  },
+
+  "flex-layout.row#footer__pagos": {
+    "title": "seccion de payments",
+    "children": ["image#footer__payments"],
+    "props": {
+      "blockClass": "img-payments"
+    }
+  },
+  "image#footer__payments": {
+    "props": {
+      "src": "assets/img/payments.png",
+      "blockClass": "footer__image_logo"
+    }
+  }
+}
