@@ -12,7 +12,8 @@
   "icon#minicart__icon": {
     "props": {
       "id": "inf-warning--filled",
-      "size": 20
+      "size": 20,
+      "blockClass":"icon-desktop-cart"
     }
   }
 }
