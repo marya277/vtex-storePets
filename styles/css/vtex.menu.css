@@ -13,12 +13,12 @@
     font-size: 16px;
     /*color:#595656 ;*/
 }
- .styledLinkContainer:hover{
+ /* .styledLinkContainer:hover{
     background-color:rgb(46, 185, 214);
 } 
 .styledLinkContent:hover{
     color:white;
-} 
+}  */
 
 .accordionIcon--item-drawer{
     visibility: hidden;
@@ -34,4 +34,10 @@
 }
 .menuItem--item-drawer{
     border-bottom: inset;
+}
+.menuItem--footer__menu-item{
+    padding-bottom: 1rem;
+}
+.menuContainer--menu-footer-redes .styledLinkContainer, .styledLinkContainer--footer__menu-item{
+	margin-left: 0 !important;
 }

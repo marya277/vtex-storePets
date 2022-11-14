@@ -9,11 +9,7 @@
   flex-direction: row;
   width: max-content;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  /* CSS */
-  
-}
+
 .flexRowContent--home__section--one{
   background-color:#54CDEC;
   justify-content: stretch;
@@ -37,23 +33,13 @@
 .flexRow--primera-seccion-producto,.flexRow--segunda-seccion-producto{
   display: none;
 }
-/* .flexRow--flex-logo-mobile{
-display: flex;
-align-items: center;
-justify-content: center;
 
-} */
  
 }
 .flexRow--primera-seccion-ofertas,.flexRow--segunda-seccion-ofertas,.flexRowContent--tercera-seccion-ofertas{
   background-color:rgb(185, 249, 229);
 }
 
-/* .flexRowContent--row-info-telefono,.flexRowContent--row-info-correo,.flexColChild--row-info-contacto{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-} */
 .flexRowContent--row-info-telefono,.flexRowContent--row-info-correo,.flexRowContent--row-info-horario{
   display:flex;
   justify-content:center;
@@ -76,3 +62,46 @@ justify-content: center;
   display: flex;
   flex-direction: column;
 }
+.flexCol--footer-desktop-seccion-two{
+  display: flex;
+  flex-direction:row ;
+}
+.flexRowContent--row-footer-desktop{
+  display: flex;
+  flex-direction: column;
+}
+.flexColChild--col-footer-logo{
+   display: flex;
+    height: 100%;
+    align-content: flex-start;
+    justify-content: center;
+}
+.flexColChild--col1-section-two{
+  height:auto !important;
+  margin-top: 10px;
+}
+.flexRowContent--row-desktop-down{
+  display: flex;
+  flex-direction: column;
+}
+.flexRowContent--row-footer-desktop .stretchChildrenWidth{
+  width: 100% !important;
+}
+ .flexRow--primera-seccion-top{
+  width: 87%;
+} 
+.flexRowContent--container-footer-logo{
+  display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+      .flexRowContent--row-footer-desktop .stretchChildrenWidth{
+        width: 100%;
+
+    }
+  }

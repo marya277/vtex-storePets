@@ -221,7 +221,7 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#3f3f40",
+      "base": "#8a8a8a",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
       "action-secondary": "#0F3E99",
@@ -332,14 +332,14 @@
       },
       "heading-2": {
         "fontFamily": " Dosis, Barlow, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "700",
+        "fontWeight": "600",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
         "fontFamily": " Dosis,Barlow,  Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "700",
+        "fontWeight": "600",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
@@ -367,7 +367,7 @@
       },
       "body": {
         "fontFamily": "  Dosis, Barlow, Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "700",
+        "fontWeight": "600",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
