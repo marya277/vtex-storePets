@@ -1,0 +1,186 @@
+{
+  "menu#footer-menu__enlaces": {
+    "title":"menu-footer-enlaces",
+    "children": [
+      "menu-item#-inicio",
+      "menu-item#-productos",
+      "menu-item#-spa",
+      "menu-item#-contactanos",
+      "menu-item#-nosotros",
+      "menu-item#-politicas",
+      "menu-item#-terminos"
+    ],
+    "props": {
+      "blockClass": "menu-enlaces-footer",
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#-inicio": {
+    "props": {
+      "id": "enlaces-menu__inicio",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Inicio",
+        "text": "Inicio",
+        "href": "https://www.happypetsco.com/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#-productos": {
+    "props": {
+      "id": "enlaces-menu__producto",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "s",
+        "text": "Productos",
+        "href": "https://www.happypetsco.com/nuestra-tienda/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#-spa": {
+    "props": {
+      "id": "enlaces-menu__spa",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Spa",
+        "text": "Spa",
+        "href": "https://www.happypetsco.com/spa/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#-contactanos": {
+    "props": {
+      "id": "enlaces-menu__contactanos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Contactanos",
+        "text": "Contactanos",
+        "href": "https://www.happypetsco.com/contactanos/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#-nosotros": {
+    "props": {
+      "id": "enlaces-menu__nosotros",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Noostros",
+        "text": "Nosotros",
+        "href": "https://www.happypetsco.com/nosotros/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#-politicas": {
+    "props": {
+      "id": "enlaces-menu__politicas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Politicas de privacidad",
+        "text": "Politicas de privacidad",
+        "href": "https://www.happypetsco.com/politica-de-privacidad/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+  "menu-item#-terminos": {
+    "props": {
+      "id": "enlaces-menu__terminos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "tagTitle": "Terminos y condiciones",
+        "text": "Terminos y condiciones",
+        "href": "https://www.happypetsco.com/terminos-y-condiciones/"
+      },
+      "blockClass": "footer__menu-item"
+    }
+  },
+
+  //?menu  footer redes sociales
+
+  "vtex.menu@2.x:menu#footer":{
+    "title": "menu-footer-redes",
+"children":[
+    "menu-item#instagram",
+    "menu-item#facebook",
+    "menu-item#Whatsapp"
+],
+"props":{
+    "orientation": "vertical",
+    "blockClass":"menu-footer-redes"
+}
+  },
+  "menu-item#instagram": {
+    "props": {
+      "id": "menu-item-redes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "instagram",
+        "text": "Instagram"
+      },
+      "iconProps": {
+        "id": "sti-equals",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+          },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#facebook": {
+    "props": {
+      "id": "menu-item-redes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Facebook",
+        "text": "Facebook"
+      },
+      "iconProps": {
+        "id": "inf-tooltip--filled",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+   
+      },
+      "iconToTheRight": true
+    }
+  } ,
+  "menu-item#Whatsapp": {
+    "props": {
+      "id": "menu-item-redes",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Whatsapp",
+        "text": "WhatsApp"
+      },
+      "iconProps": {
+        "id": "inf-tooltip--outline",
+        "size": 16,
+        "viewBox": "0 0 16 16"
+      },
+      "iconToTheRight": true
+    }
+  }
+
+}

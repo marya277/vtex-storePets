@@ -5,19 +5,13 @@
       "flex-layout.row#footer-mobile"]
   },
   "flex-layout.row#footer-mobile": {
-    "children": ["social-networks", "accepted-payment-methods"]
-  },
-  "social-networks": {
+    "children": [
+      "flex-layout.row#footer-desktop-top",
+     "flex-layout.row#footer-desktop-down"
+    ],
     "props": {
-      "src": "assets/img/img_category_03.jpg",
-      "maxWidth": 100,
-      "blockClass": "img-col-category1"
-    }
-  },
-  "accepted-payment-methods": {
-    "props": {
-      "paymentMethods": ["mastercard", "visa", "diners club"]
+      "blockClass": "row-footer-global"
     }
   }
-  
+
 }
