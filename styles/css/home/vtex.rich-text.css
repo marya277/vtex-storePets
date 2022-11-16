@@ -144,3 +144,6 @@ color: rgb(138, 138, 138);
 
     }
     }
+    .wrapper--text-footer-head{
+        border-bottom: 3px solid #00deff;
+    }

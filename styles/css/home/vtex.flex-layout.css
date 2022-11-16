@@ -94,7 +94,9 @@
   display: flex;
     flex-direction: column;
 }
-
+.flexCol--col-slider-summary{
+  background-color: #9addee;
+}
 
 @media only screen 
     and (device-width: 375px) 
@@ -104,4 +106,7 @@
         width: 100%;
 
     }
+  }
+  .flexColChild--col-slider-summary{
+    padding: 30px;
   }
