@@ -1,0 +1,42 @@
+{
+  /* "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop#home__search--desktop",
+      "search-result-layout.mobile#home__search--mobile"
+      //"search-no-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#home__search--desktop": {
+    "children": ["rich-text#search"]
+  },
+  "search-result-layout.mobile#home__search--mobile": {
+    "children": ["flex-layout.row#home__results"]
+  },
+  "rich-text#search": {
+    "props": {
+      "text": "search-home",
+      "font": "t-heading-3",
+      "blockClass": "search-home"
+    }
+  },
+  "flex-layout.row#home__results": {
+    "children": ["flex-layout.col#home__results--search"]
+  },
+
+  "flex-layout.col#home__results--search": {
+    "children": ["search-content#home__results--search"]
+  },
+  "search-content#home__results--search": {
+    "blocks": [
+      "gallery"
+      //"no found"
+    ]
+  },
+  "gallery": { "blocks": ["product-summar.shelf"] } */
+}

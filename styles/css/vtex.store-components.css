@@ -21,3 +21,31 @@
     padding: 23px;
     border-top: 3px solid #5196e9;
 }
+@media all and (min-width: 480px) and (max-width: 768px) { 
+.imageElement--img-category1,.imageElement--img-col-category1,.imageElement--img-col-category2,.imageElement--img-ofertas1{
+    max-width: 150px;
+}
+
+
+}
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+    .imageElement--img-category1,.imageElement--img-col-category1,.imageElement--img-col-category2,.imageElement--img-ofertas1{
+        max-width: 150px;
+    }
+
+ } 
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+    .imageElement--img-category1,.imageElement--img-col-category1,.imageElement--img-col-category2,.imageElement--img-ofertas1{
+        max-width: 300px;
+    }
+    
+}
+@media only screen and (max-width: 768px) and (orientation : portrait) {
+	
+    .imageElement--img-category1,.imageElement--img-col-category1,.imageElement--img-col-category2,.imageElement--img-ofertas1{
+        max-width: 150px;
+    }
+
+
+}

@@ -2,7 +2,7 @@
    
   "rich-text#home__info--categorias": {
     "props": {
-      "text": "# Nuestras categorias",
+      "text": "## Nuestras categorias",
       "blockClass":"title-categorias",
       "textAlign":"CENTER",
       "textPosition":"CENTER"
@@ -30,8 +30,9 @@
     ],
     "props":{
       "blockClass":"category-store",
-      "marginLeft":5,
-      "vertical-align":"middle"
+      "horizontalAlign":"center",
+      "marginLeft":5
+      
     }
   },
   "rich-text#titulo_category__one--item1":{
@@ -46,9 +47,7 @@
     "props": {
       "src": "assets/img/img_category_01.jpg",
       "maxWidth":300,
-      "blockClass":"img-col-category1",
-      "marginLeft":5,
-      "horizontalAlign":"center"
+      "blockClass":"img-col-category1"
     }
   },
   "flex-layout.col#category__one--item-2":{
@@ -59,8 +58,9 @@
     ],
     "props":{
       "blockClass":"category-store",
-      "marginLeft":5,
-      "horizontalAlign":"center"
+      "horizontalAlign":"center",
+      "marginLeft":5
+
     }
   },
   "rich-text#titulo_category__one--item2":{
@@ -85,6 +85,7 @@
     ],
     "props":{
       "blockClass":"category-store",
+      "horizontalAlign":"center",
       "marginLeft":5
     }
   },
@@ -110,6 +111,7 @@
     ],
     "props":{
       "blockClass":"category-store",
+      "horizontalAlign":"center",
       "marginLeft":5
     }
   }, 
@@ -152,7 +154,9 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+         "horizontalAlign":"center"
+      
       }
   },
   "rich-text#titulo_category__one--item5":{
@@ -178,7 +182,8 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+        "horizontalAlign":"center"
       }
   },
   "rich-text#titulo_category__one--item6":{
@@ -204,7 +209,8 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+        "horizontalAlign":"center"
       }
   },
   "rich-text#titulo_category__one--seven":{
@@ -230,7 +236,8 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+        "horizontalAlign":"center"
       }
   },
   "rich-text#titulo_category__one--eight":{
@@ -270,7 +277,9 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+        "horizontalAlign":"center"
+
       }
  },
  "image#home_category_col--nine":{
@@ -296,7 +305,8 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+        "horizontalAlign":"center"
       }
  },
  "image#home_category_col--ten":{
@@ -322,7 +332,8 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+        "horizontalAlign":"center"
       }
  },
  "image#home_category_col--eleven":{
@@ -348,7 +359,8 @@
       "props":{
         "blockClass":"category-store",
         "marginLeft":5,
-        "vertical-align":"middle"
+        "vertical-align":"middle",
+        "horizontalAlign":"center"
       }
  },
  "image#home_category_col--twelve":{
