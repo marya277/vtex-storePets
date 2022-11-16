@@ -2,22 +2,19 @@
   "store.home": {
     "blocks": [
       "slider-layout#home__slider--children",
-      //"responsive-layout.tablet#home__info--tablet",
-      //vtex "list-context.image-list#home__slider--list",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.desktop#home__info--desktop",
-      "responsive-layout.phone#home__info--phone"
-      //"search-result-layout.desktop#home_search--desktop"
-      //"modal-trigger#home__modal--children",
-      //"modal-trigger#home__modal--event"
-  
-    
+      "responsive-layout.phone#home__info--phone",
+      "search-result-layout.customQuery#home"
     ]
     
-  },
+  }
   
- 
-  "search-result-layout.desktop#home_search--desktop": {
+  
+      
+
+
+ /*  "search-result-layout.desktop#home_search--desktop": {
     "children": ["flex-layout.row#home_results--desktop"]
   },
   "flex-layout.row#home_results--desktop": {
@@ -50,7 +47,6 @@
       "text": "Añadir al carrito",
       "blockClass": "comprar_button--global"
   }
+} */
 }
-}
-
 

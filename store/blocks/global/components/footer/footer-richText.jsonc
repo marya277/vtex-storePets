@@ -39,8 +39,8 @@
   "rich-text#section__four--footer--correo": {
     "props": {
       "text": "Correo:info@happypetsco.com",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER",
+      //"textPosition": "CENTER",
+//"textAlignment": "CENTER",
       "blockClass": "text-footer-correo"
     }
   },

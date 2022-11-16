@@ -106,14 +106,14 @@
       "props": {
         "src": "assets/img/img_ofertas_01.jpg",
         "maxWidth":300,
-        "blockClass":"img-category1"
+        "blockClass":"img-ofertas1"
       }
     },
     "image#home_ofertas--two": {
       "props": {
         "src": "assets/img/img_ofertas_02.png",
         "maxWidth":300,
-        "blockClass":"img-category2"
+        "blockClass":"img-ofertas1"
       }
     },
   
@@ -121,14 +121,14 @@
       "props": {
         "src": "assets/img/img_ofertas_03.png",
         "maxWidth":300,
-        "blockClass":"img-category3"
+        "blockClass":"img-ofertas1"
       }
     },
     "image#home_ofertas--four": {
       "props": {
         "src": "assets/img/img_ofertas_04.png",
         "maxWidth":300,
-        "blockClass":"img-category4"
+        "blockClass":"img-ofertas1"
         
       }
     },
@@ -211,7 +211,7 @@
       "props": {
         "src": "assets/img/img_ofertas_07.jpg",
         "maxWidth":300,
-        "blockClass":"img-category5"
+        "blockClass":"img-ofertas1"
         
       }
     },
@@ -219,7 +219,7 @@
       "props": {
         "src": "assets/img/img_ofertas_08.png",
         "maxWidth":300,
-        "blockClass":"img-category6"
+        "blockClass":"img-ofertas1"
 
       }
     },
@@ -227,7 +227,7 @@
       "props": {
         "src": "assets/img/img_ofertas_9.png",
         "maxWidth":300,
-        "blockClass":"img-category7"
+        "blockClass":"img-ofertas1"
       
       }
     },
@@ -235,7 +235,7 @@
       "props": {
         "src": "assets/img/img_ofertas_10.jpg",
         "maxWidth":300,
-        "blockClass":"img-category8"
+        "blockClass":"img-ofertas1"
         
       }
     }
