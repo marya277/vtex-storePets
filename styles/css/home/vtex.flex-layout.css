@@ -110,3 +110,7 @@
   .flexColChild--col-slider-summary{
     padding: 30px;
   }
+  .flexRowContent--footer-down-tablet{
+    display: flex;
+    flex-direction: column
+  }
