@@ -2,16 +2,15 @@
   
   "responsive-layout.mobile#home__info--mobile":{
     "children":[
-     // "responsive-layout.phone#home__info--phone",
-      "responsive-layout.tablet#home__info--tablet",
-      "rich-text#home__info--phone"
+
+      "responsive-layout.tablet#home__info--tablet"
+
     ]
   },
-/* , */
   "rich-text#home__info--phone":{
     "props": {
       "text": "## Nuevos productos",
-      "blockClass": "title-info-mobile",
+      "blockClass": "title-mobile-products",
       "textAlign":"CENTER",
       "textPosition":"CENTER"
     }
@@ -31,10 +30,9 @@
             "rich-text#home__info--ofertas",
             "flex-layout.row#tablet__ofertas--one",
             "flex-layout.row#tablet__ofertas--two",
-            //"flex-layout.row#tablet__ofertas--three",
             "flex-layout.row#home__section--spa",
-            "flex-layout.row#desktop__product--list",
-            "footer-layout.mobile"
+            "flex-layout.row#desktop__product--list"
+
      
     ]
   }

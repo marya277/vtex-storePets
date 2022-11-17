@@ -118,7 +118,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "ropa title",
-      "text": "ROPA"
+      "text": "ROPA",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -139,13 +140,13 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": " arnes title",
-      "text": "ARNES/PECHERA"
+      "text": "ARNES/PECHERA",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
       "size": 16,
       "viewBox": "0 0 16 16",
-      //"activeClassName": "rebel-pink",
       "mutedClassName": "c-action-primary"
     },
     "iconToTheRight": true
@@ -160,7 +161,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": " arnes title",
-      "text": "CAMAS"
+      "text": "CAMAS",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -181,7 +183,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "cargadores title",
-      "text": "CARGADORES"
+      "text": "CARGADORES",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -202,7 +205,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "collares title",
-      "text": "COLLARES Y CORREAS"
+      "text": "COLLARES Y CORREAS",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -223,7 +227,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "comederos title",
-      "text": "COMEDEROS"
+      "text": "COMEDEROS",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -244,7 +249,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "juguetes",
-      "text": "JUGUETES"
+      "text": "JUGUETES",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -265,7 +271,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "bonos title",
-      "text": "BONOS DE REGALO"
+      "text": "BONOS DE REGALO",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -286,7 +293,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "aseo title",
-      "text": "ASEO Y BELLEZA"
+      "text": "ASEO Y BELLEZA",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -307,7 +315,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "gatitos title",
-      "text": "PARA GATITOS"
+      "text": "PARA GATITOS",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -328,7 +337,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "placas title",
-      "text": "PLACAS DE IDENTIFICACION"
+      "text": "PLACAS DE IDENTIFICACION",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -349,7 +359,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "snacks title",
-      "text": "SNACKS"
+      "text": "SNACKS",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -370,7 +381,9 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "otros title",
-      "text": "OTROS"
+      "text": "OTROS",
+      "blockClass":"submenu-desktop",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -391,7 +404,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": "escribenos title",
-      "text": "ESCRIBENOS"
+      "text": "ESCRIBENOS",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",
@@ -412,7 +426,8 @@
       "href": "/",
       "noFollow": true,
       "tagTitle": " nosotros title ",
-      "text": "NOSOTROS"
+      "text": "NOSOTROS",
+      "blockClass":"submenu-desktop"
      },
      "iconProps": {
       "id": "nav-arrow--right",

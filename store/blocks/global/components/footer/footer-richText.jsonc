@@ -59,8 +59,8 @@
   "rich-text#footer__pagos":{
     "props": {
       "text": "Pago seguro a través de ePayco",
-      "textPosition": "CENTER",
-      "textAlignment": "CENTER",
+      //"textPosition": "CENTER",
+     // "textAlignment": "CENTER",
       "blockClass": "text-footer-epayco"
     }
   },
