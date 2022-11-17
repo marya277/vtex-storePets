@@ -13,7 +13,10 @@
     }
   },
   "flex-layout.col#section__spa--image": {
-    "children": ["image#home_spa--image"]
+    "children": ["image#home_spa--image"],
+    "props": {
+      "blockClass":"col1-seecion-spa"
+    }
   },
 
   "image#home_spa--image": {
@@ -36,7 +39,6 @@
       "text": "Spa Deluxe",
       "textAlign": "center",
       "font": "t-heading-1"
-      //"textColor": "c-on-emphasis"
     }
   },
   "rich-text#section__spa--paragraph": {
