@@ -45,8 +45,8 @@
     },
     "flex-layout.col#minicart_empty":{
       "children":[
-        "icon-cart#cart-icon-empty"
-        //"rich-text#minicart_empty"
+        "icon-cart#cart-icon-empty",
+        "rich-text#minicart_empty"
       ],
       "props":{
         "blockClass":"col-minicart-empty"
@@ -77,14 +77,26 @@
     "flex-layout.col#minicart_col--image":{
       "children":[
         "product-list-image"
-      ]
+      ],
+      "props":{
+        "blockClass":"img-list-minicart",
+        "width":"30%"
+      }
     },
     "flex-layout.col#minicart_col--info":{
       "children":[
         "vtex.product-list:product-name",
         "quantity-selector#minicart",
         "price"
-      ]
+      ],
+      "props":{
+        "blockClass":"product-in-cart",
+        "width":"50%",
+        "rowGap": 5,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true
+  
+      }
     },
     "quantity-selector#minicart":{
       "props":{
@@ -94,7 +106,14 @@
     "flex-layout.col#minicart_col--remove":{
       "children":[
         "remove-button"
-      ]
+      ],
+      "props":{
+        "blockClass": "minicart-remove--btn",
+        "marginLeft": 6,
+        "verticalAlign": "middle",
+   
+      "preserveLayoutOnMobile": true
+      }
     },
     "flex-layout.row#minicart_footer":{
       "children":["minicart-summary","minicart-checkout-button"]
@@ -132,6 +151,14 @@
             "text": "AGREGAR",
             "blockClass": "comprar_button--global"
         }
+    },
+    "rich-text#minicart_empty":{
+      "props": {
+        "text": "#Carrito vacio",
+        "blockClass": "text-cart-empty"
+      }
+    
     }
+
   }
   
