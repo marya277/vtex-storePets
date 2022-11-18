@@ -11,7 +11,7 @@
     ],
     "props": {
       "blockClass": "row-footer-global"
-
+      //"colSizing": "auto"
     }
   },
   "flex-layout.row#footer_mobile--top":{
@@ -32,7 +32,8 @@
     "props":{
   "blockClass":"col-footer-tablet",
   "verticalAlign":"middle",
-  "widht":"100%"
+  "colGap":5
+//"widht":"50%"
     }
   },
  
