@@ -13,7 +13,7 @@
     }
   },
   "store.search#department": {
-    "blocks": ["search-result-layout","image#search--head" ],
+    "blocks": ["image#search--head", "search-result-layout" ],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -254,16 +254,13 @@
           "itemsPerRow": 1
         }
       ],
-      "ListSummary": "product-summary.shelf",
+      "ListSummary": "product-summary.shelf#listLayout",
       "GridSummary": "product-summary.shelf"
     }
   },
   "gallery-layout-switcher": {
     "children": [
-      /*
-       * For accessbility to work properly,
-       * It's important to define the options in the same order as the layouts
-       */
+     
       "gallery-layout-option#grid",
       "gallery-layout-option#list"
     ]
@@ -273,8 +270,8 @@
       "name": "grid"
     },
     "children": [
-      "icon-grid",
-      "responsive-layout.desktop#textOptionGrid"
+      "icon-grid"
+//"responsive-layout.desktop#textOptionGrid"
     ]
   },
   "gallery-layout-option#list": {
@@ -282,20 +279,11 @@
       "name": "list"
     },
     "children": [
-      "icon-inline-grid",
-      "responsive-layout.desktop#textOptionList"
+      "icon-inline-grid"
+//"responsive-layout.desktop#textOptionList"
     ]
   },
-  "responsive-layout.desktop#textOptionGrid": {
-    "children": [
-      "rich-text#option-grid"
-    ]
-  },
-  "responsive-layout.desktop#textOptionList": {
-    "children": [
-      "rich-text#option-list"
-    ]
-  },
+ 
   "rich-text#option-grid": {
     "props": {
       "text": "Grid",

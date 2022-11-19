@@ -1,0 +1,94 @@
+{
+
+  "product-summary.shelf#listLayout": {
+    "props": {
+      "blockClass": "listLayout"
+    },
+    "children": [
+      "responsive-layout.desktop#productSummaryList",
+      "responsive-layout.mobile#productSummaryList"
+    ]
+  },
+  "responsive-layout.desktop#productSummaryList": {
+    "children": [
+      "flex-layout.row#summaryListDesktop"
+    ]
+  },
+  "responsive-layout.mobile#productSummaryList": {
+    "children": [
+      "flex-layout.row#summaryListMobile"
+    ]
+  }, 
+
+  "flex-layout.row#summaryListDesktop":{
+    "children": [
+      "flex-layout.col#product-summary-image",
+      "flex-layout.col#product-summary-name",
+      "product-summary-space",
+      "flex-layout.col#product-summary-price",
+      "flex-layout.col#search-summary-quantity",
+      "flex-layout.col#search-summary-add-to-cart"
+    ],
+    "props":{
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": "summaryListDesktop"
+    }
+  },
+  "flex-layout.col#product-summary-image":{
+"children": [
+  "product-summary-image"
+],
+"props": {
+  "showBadge": false,
+  "aspectRatio": "1:1",
+  "maxHeight": 180,
+  "blockClass": "summaryListDesktop"
+}
+  },
+  "flex-layout.col#product-summary-name":{
+    "children": [
+      "product-summary-name"
+    ]
+  },
+  "flex-layout.col#product-summary-price":{
+"children": [
+  "product-summary-price"
+]
+  },
+  "flex-layout.col#search-summary-quantity":{
+    "children":[
+        "product-quantity"
+    ],
+    "props":{
+        "blockClass": "btn__quantity"
+    }
+},
+"flex-layout.col#search-summary-add-to-cart":{
+    "children":[
+        "add-to-cart-button"
+    ],
+    "props":{
+        "blockClass": "btn-summary-add"
+    }
+},
+"product-quantity": {
+    "props": {
+        "showUnit": true,
+        "size": "small"
+    }
+},
+"flex-layout.row#summaryListMobile": {
+  "props":{
+    "preserveLayoutOnMobile": true,
+    "colSizing": "auto",
+    "blockClass": "summaryListMobile",
+    "colGap": 5
+  },
+  "children": [
+  
+  ]
+}
+
+
+}
