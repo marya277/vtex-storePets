@@ -16,7 +16,7 @@
           "flex-layout.row#home__ofertas--three",
           "flex-layout.row#home__section--spa",
           "flex-layout.row#desktop__product--list"
-          
+          //"search-result-layout.customQuery#home"
 
 
         ]
