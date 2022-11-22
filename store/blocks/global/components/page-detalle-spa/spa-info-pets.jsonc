@@ -1,163 +1,165 @@
 {
-    "responsive-layout.desktop#spa": {
-        "title":"responsive desktop spa",
-        "children": [
-            "flex-layout.row#spa_info--pets",
-           "flex-layout.row#spa_seccion--spa",
-           "flex-layout.row#spa_text--deluxe"
-
-        ]
-      },
-    "flex-layout.row#spa_info--pets":{
-        "title": "row-banner-spa",
-        "children": [
-            "image#banner-spa"
-          ]
-    },
- "image#banner-spa": {
-        "props": {
-          "src": "assets/img/spa_slide-1.jpg",
-          "maxHeight": "600px"
-        }
-      },
-      "flex-layout.row#spa_seccion--spa":{
-        "title": "row-seccion bath",
-        "children": [
-            "flex-layout.col#spa_seccion_spa--one",
-            "flex-layout.col#spa_seccion_spa--two",
-            "flex-layout.col#spa_seccion_spa--three",
-            "flex-layout.col#spa_seccion_spa--four",
-            "flex-layout.col#spa_seccion_spa--five"
-        ],
-        "props":{
-            "blockClass":"seccion-spa-bath",
-            //"colGap":6,
-            "colSizing":"equal",
-            "marginTop":8,
-            "colJustify":"between"
-          }
-      },
-      "flex-layout.col#spa_seccion_spa--one":{
-        "title": "col-seccion-uno spa",
-        "children": [
-            "image#spa--one"
-        ],
-        "props": {
-            "horizontalAlign":"center",
-            "blockClass":"img-spa-one",
-            "verticalAlign":"middle"
-        }
-      },
-      "image#spa--one":{
-        "props": {
-            "src": "assets/img/spa_01.jpg",
-            "maxHeight": "250px"
-          }
-      },
-      "flex-layout.col#spa_seccion_spa--two":{
-        "title": "col-seccion dos spa",
-        "children": [
-            "image#spa--two"
-        ],
-        "props": {
-            "horizontalAlign":"center",
-            "blockClass":"img-spa-one",
-            "verticalAlign":"middle"
-        }
-
-      },
-      "image#spa--two":{
-        "props": {
-            "src": "assets/img/spa_02.jpg",
-            "maxHeight": "250px"
-          }
-      },
-      "flex-layout.col#spa_seccion_spa--three":{
-        "title": "col-seccion tres spa",
-        "children": [
-            "image#spa--three"
-        ],
-        "props": {
-            "horizontalAlign":"center",
-            "blockClass":"img-spa-one",
-            "verticalAlign":"middle"
-        }
-
-      },
-      "image#spa--three":{
-        "props": {
-            "src": "assets/img/spa_03.jpg",
-            "maxHeight": "250px"
-          }
-      },
-      "flex-layout.col#spa_seccion_spa--four":{
-            "title": "col-seccion cuatro spa",
-        "children": [
-            "image#spa--four"
-        ],
-        "props": {
-            "horizontalAlign":"center",
-            "blockClass":"img-spa-one",
-            "verticalAlign":"middle"
-        }
-
-      },
-      "image#spa--four":{
-        "props": {
-            "src": "assets/img/spa_04.jpg",
-            "maxHeight": "250px"
-          }
-      },
-      "flex-layout.col#spa_seccion_spa--five":{
-        "title": "col-seccion-cinco",
-        "children": [
-            "image#spa--five"
-        ],
-        "props": {
-            "horizontalAlign":"center",
-            "blockClass":"img-spa-one",
-            "verticalAlign":"middle"
-        }
-
-      },
-      "image#spa--five":{
-        "props": {
-            "src": "assets/img/spa_05.jpg",
-            "maxHeight": "250px"
-          }
-      },
-      "flex-layout.row#spa_text--deluxe":{
-        "children": [
-            "flex-layout.col#spa_info--text"
-        ],
-        "props": {
-            "blockClass": "Col-text-spa"
-        }
-       
-      },
-      "flex-layout.col#spa_info--text":{
-        "children": [
-            "rich-text#title_spa",
-            "rich-text#section__spa"
-        ]
-      },
-      "rich-text#title_spa":{
-        "props": {
-            "text": "SPA DELUXE",
-            "font": "t-heading-2",
-            "blockClass": "text-title-spa",
-            "textPosition": "CENTER"
-          }
-      },
-      "rich-text#section__spa":{
-        "props": {
-            "text": "Incluye aromatérapia, masajes relajantes, baño con agua calientica, shampoo y acondicionador con Aloe Vera, Romero y \n Manzanilla, limpieza de oídos y dientes, peluquería, cepillado, blower, paticure, hidratación de pulpejos y nariz, aplicación de  \n Keratina, Vitamina E y Árgan, perfumado y un accesorio súper chic para que se vean de   lujo!!  \n *** Si están muy enredados se cobrará un valor extra por el desenredo y aplicación de un acondicionador especial ***",
-            //"font": "t-heading-5",
-            "blockClass": "text-spa-info",
-            "textPosition": "CENTER"
-          }
-      }
-
+  "responsive-layout.desktop#spa": {
+    "title": "responsive desktop spa",
+    "children": [
+      "flex-layout.row#spa_info--pets",
+      "flex-layout.row#spa_text--deluxe",
+      "flex-layout.row#spa_seccion--pelos",
+      "flex-layout.row#spa_otras_opciones"
+    ]
+  },
+  "flex-layout.row#spa_info--pets": {
+    "title": "row-banner-spa",
+    "children": ["image#banner-spa"]
+  },
+  "image#banner-spa": {
+    "props": {
+      "src": "assets/img/spa_slide-1.jpg"
+   
     }
+  },
+  "flex-layout.row#spa_text--deluxe": {
+    "title": "seccion-spa-inicila",
+    "children": ["flex-layout.col#spa_info--text"],
+    "props": {
+      "blockClass": "Col-text-spa"
+    }
+  },
+  "flex-layout.col#spa_info--text": {
+    "title": "col-seccion inicial spa",
+    "children": [
+      "flex-layout.row#spa_seccion--spa",
+      "rich-text#title_spa",
+      "rich-text#section__spa",
+      "rich-text#section_spa--one",
+      "flex-layout.row#spa_seccion--segunda"
+    ]
+  },
+  
 
+  "flex-layout.row#spa_seccion--pelos": {
+    "title": "seccion spa pelos",
+    "children": ["flex-layout.col#spa_info--pelos"]
+  },
+  "flex-layout.col#spa_info--pelos": {
+    "title": "col seccion pelos",
+    "children": [
+      "rich-text#section__pelos--title",
+      "rich-text#section_pelos--one",
+      "flex-layout.row#spa_seccion--gallery"
+    ],
+    "props": {
+      "blockClass": "col-seccion-pelos"
+    }
+  },
+  "rich-text#section__pelos--title": {
+    "title": "titulo seccion pelos",
+    "props": {
+      "text": "TRATAMIENTO DE ELIMINACIÓN DE PELO MUERTO",
+      "font": "t-heading-3",
+      "blockClass": "text-title-pelos",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+  },
 
+  "rich-text#section_pelos--one": {
+    "title": "texto central seccion pelos",
+    "props": {
+      "text": " Tratamiento complementario del SPA DELUXE, en el cual mediante el uso de diferentes cepillos y tratamientos capilares, se ayuda a eliminar el pelo muerto o pelo que se está mudando, para que tu peludo no esté botando tanto pelo en casa durante el mes que transcurre entre baño y baño.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-title-pelos"
+    }
+  },
+ "flex-layout.row#spa_otras_opciones":{
+  "title": "seccion otra opciones",
+  "children": [
+    "flex-layout.col#spa_otras_opciones--one ",
+    "flex-layout.col#spa_otras_opciones--two",
+    "flex-layout.col#spa_otras_opciones--three ",
+    "flex-layout.col#spa_otras_opciones--four "
+  ]
+ },
+ "flex-layout.col#spa_otras_opciones--one ":{
+  "title": "col1 seccion opciones",
+  "children": [
+    "rich-text#opciones--one"
+  ],
+  "props": {
+    "horizontalAlign": "center",
+    "verticalAlign": "middle"
+ }
+ },
+   "flex-layout.col#spa_otras_opciones--two":{
+    "title": "col2 seccion opciones",
+    "children": [
+      "rich-text#opciones--two"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+   }
+   },
+   "flex-layout.col#spa_otras_opciones--three ":{
+    "title": "col3 seccion opciones",
+    "children": [
+      "rich-text#opciones--three"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+   }
+   },
+   "flex-layout.col#spa_otras_opciones--four ":{
+    "title": "col4 seccion opciones",
+    "children": [
+      "rich-text#opciones--four"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+   }
+   },
+   "rich-text#opciones--one":{
+   "title": "texto opciones shampoo",
+    "props": {
+      "text": "Shampoo Antipulgas o  \n Medicado   \n$7.000",
+      "font": "t-heading-3",
+      "blockClass": "text-opcion1",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+   },
+   "rich-text#opciones--two":{
+    "title": "texto opciones cepillado",
+    "props": {
+      "text": "Cepillado desenredante  \n  de $15.000 a    \n$40.000 \n (dependiendo del estado del pelaje) ",
+      "font": "t-heading-4",
+      "blockClass": "text-opcion2",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+   },
+   "rich-text#opciones--three":{
+    "title": "texto opciones uñas",
+    "props": {
+      "text": "Corte de uñas  \n$5.000",
+      "font": "t-heading-3",
+      "blockClass": "text-opcion3",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+   },
+
+ "rich-text#opciones--four":{
+  "title": "texto opciones limpieza",
+    "props": {
+      "text": "Limpieza de oidos  \n$7.000",
+      "font": "t-heading-3",
+      "blockClass": "text-opcion4",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
+    }
+   }
+}

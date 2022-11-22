@@ -2,15 +2,30 @@
     "responsive-layout.tablet#spa":{
         "children":[
             "flex-layout.row#spa_info--pets",
-            "flex-layout.row#spa_tablet--spa"
-        ]
+            "flex-layout.row#spa_tablet--deluxe"
+        ],
+        "props":{
+        "blockClass":"responsive-tablet-spa"
+        }
     },
-    "flex-layout.row#spa_tablet--spa":{
+    "flex-layout.row#spa_tablet--deluxe":{
         "children": [
-           
-            "flex-layout.row#tablet_seccion--spa"
+            "flex-layout.col#spa_info--tablet"
         ]
     },
+    "flex-layout.col#spa_info--tablet":{
+        "children": [
+            "flex-layout.row#tablet_seccion--spa",
+            "rich-text#title_spa",
+            "rich-text#section__spa",
+            "rich-text#section_spa--one",
+            "flex-layout.row#tablet_seccion--segunda"
+        ],
+        "props": {
+            "blockClass":"col-info-tablet"
+        }
+    },
+   
     "flex-layout.row#tablet_seccion--spa":{
         "title": " tablet seccion bath",
         "children": [
@@ -22,7 +37,7 @@
         ],
         "props":{
             "blockClass":"tablet spa-bath",
-            "colGap":5,
+            "colGap":3,
             "colSizing":"equal",
             "marginTop":8,
             "colJustify":"between"
@@ -116,7 +131,106 @@
             "src": "assets/img/spa_05.jpg",
             "maxHeight": "150px"
           }
-      }
+      },
+      "flex-layout.row#tablet_seccion--segunda":{
+        "title": "row-tablet-segunda",
+        "children": [
+            "flex-layout.col#tablet_seccion_segunda--one",
+            "flex-layout.col#tablet_seccion_segunda--two",
+            "flex-layout.col#tablet_seccion_segunda--three",
+            "flex-layout.col#tablet_seccion_segunda-four",
+            "flex-layout.col#tablet_seccion_segunda--five"
+        ],
+        "props": {
+            "colSizing":"equal",
+            "marginTop":8,
+            "colJustify":"between",
+            "blockClass": "row-tablet-segunda",
+            "marginBottom":8
+        }
+  },
+
+"flex-layout.col#tablet_seccion_segunda--one":{
+"children": [
+    "image#tablet_segunda--one"
+],
+"props": {
+    "horizontalAlign":"center",
+    "blockClass":"img-tablet-two",
+    "verticalAlign":"middle"
+}
+},
+"image#tablet_segunda--one":{
+"props": {
+    "src": "assets/img/spa_06.jpg",
+    "maxHeight": "150px"
+  }
+},
+"flex-layout.col#tablet_seccion_segunda--two":{
+"children": [
+    "image#tablet_segunda--two"
+],
+"props": {
+    "horizontalAlign":"center",
+    "blockClass":"img-spa-two",
+    "verticalAlign":"middle"
+} 
+},
+"image#tablet_segunda--two":{
+"props": {
+    "src": "assets/img/spa_07.jpg",
+    "maxHeight": "150px"
+  }
+},
+"flex-layout.col#tablet_seccion_segunda--three":{
+"children": [
+    "image#tablet_segunda--three"
+],
+"props": {
+    "horizontalAlign":"center",
+    "blockClass":"img-spa-two",
+    "verticalAlign":"middle"
+}
+},
+"image#tablet_segunda--three":{
+"props": {
+    "src": "assets/img/spa_08.jpg",
+    "maxHeight": "150px"
+  }
+},
+"flex-layout.col#tablet_seccion_segunda-four":{
+"children": [
+    "image#tablet_segunda--four"
+],
+"props": {
+    "horizontalAlign":"center",
+    "blockClass":"img-spa-two",
+    "verticalAlign":"middle"
+}
+},
+"image#tablet_segunda--four":{
+"props": {
+    "src": "assets/img/spa_09.jpg",
+    "maxHeight": "150px"
+  }
+},
+"flex-layout.col#tablet_seccion_segunda--five":{
+"children": [
+    "image#tablet_segunda--five"
+],
+"props": {
+    "horizontalAlign":"center",
+    "blockClass":"img-spa-two",
+    "verticalAlign":"middle"
+}
+},
+
+"image#tablet_segunda--five":{
+"props": {
+    "src": "assets/img/spa_10.jpg",
+    "maxHeight": "150px"
+  }
+}
 
    
 }
