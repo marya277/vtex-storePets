@@ -4,7 +4,7 @@ color: aliceblue;
 .wrapper--title-products{
     text-align: center;
 }
-.headingLevel1--title-products{
+.headingLevel1--title-products,.paragraph--text-info-enredos{
     color:rgb(60, 41, 124);
    
 }
@@ -146,4 +146,10 @@ color: rgb(138, 138, 138);
     }
     .wrapper--text-footer-head{
         border-bottom: 3px solid #00deff;
+    }
+    .paragraph--text-title-spa{
+    color: #800080;
+    }
+    .paragraph--text-title-pelos{
+        color:green;
     }

@@ -1,0 +1,106 @@
+{
+
+    "flex-layout.row#spa_seccion--gallery": {
+        "title": "imagenes seccio  pelos",
+        "children": [
+          "flex-layout.col#spa_pelos --one",
+          "flex-layout.col#spa_pelos --two",
+          "flex-layout.col#spa_pelos --three",
+          "flex-layout.col#spa_pelos --four",
+          "flex-layout.col#spa_pelos --five"
+        ],
+        "props": {
+          "colSizing": "equal",
+          "colJustify": "between",
+          "blockClass": "row-gallery-pelos"
+          }
+        },
+      
+      "flex-layout.col#spa_pelos --one":{
+        "title": "col1 seccion pelos",
+        "children": [
+            "image#spa_pelos--section__one"
+        ],
+        "props": {
+           "horizontalAlign": "center",
+           "verticalAlign": "middle"
+        }
+      },
+      "image#spa_pelos--section__one":{
+        "props": {
+            "src": "assets/img/spa_pelo_01.jpg",
+            "maxHeight": "200px",
+            "blockClass": "img1-pelos-spa"
+          }
+      },
+      "flex-layout.col#spa_pelos --two":{
+        "title": "col2 seccion pelos",
+        "children": [
+            "image#spa_pelos--section__two"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+       }
+      },
+      "image#spa_pelos--section__two":{
+        "props": {
+            "src": "assets/img/spa_pelo_02.jpg",
+            "maxHeight": "200px",
+            "blockClass": "img2-pelos-spa"
+          }
+    
+          },
+      "flex-layout.col#spa_pelos --three":{
+        "title": "col3 seccion pelos",
+        "children": [
+            "image#spa_pelos--section__three"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+       }
+      },
+      "image#spa_pelos--section__three":{
+        "props": {
+            "src": "assets/img/spa_pelo_03.jpg",
+            "maxHeight": "200px",
+            "blockClass": "img3-pelos-spa"
+          }
+      },
+      "flex-layout.col#spa_pelos --four":{
+        "title": "col4 seccion pelos",
+        "children": [
+            "image#spa_pelos--section__four"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+       }
+      },
+      "image#spa_pelos--section__four":{
+        "props": {
+            "src": "assets/img/spa_pelo_04.jpg",
+            "maxHeight": "200px",
+            "blockClass": "img4-pelos-spa"
+          }
+      },
+      "flex-layout.col#spa_pelos --five":{
+        "title": "col¿5 seccion pelos",
+        "children": [
+            "image#spa_pelos--section__five"
+        ],
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "middle"
+       }
+      },
+      "image#spa_pelos--section__five":{
+        "props": {
+            "src": "assets/img/spa_pelo_05.jpg",
+            "maxHeight": "200px",
+            "blockClass": "img5-pelos-spa"
+          }
+      }
+      
+}

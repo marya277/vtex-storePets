@@ -126,16 +126,22 @@
     flex-direction: column
   }
 .flexRow--seccion-spa-bath{
-   margin-bottom: 20px;
+   margin-bottom: 10px;
     height: auto;
-    margin-top: 33px;
+    margin-top: 03px;
     background-color: rgb(243, 224, 255);
 }
-.flexColChild--img-spa-one{
+.flexColChild--img-spa-one,.flexColChild--img-spa-two,.flexRow--row-tablet-segunda{
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.flexRow--Col-text-spa{
+.flexRow--Col-text-spa,.flexCol--img-spa-tablet,.flexCol--col-info-tablet{
   background-color: rgb(243, 224, 255);
   margin-top: 0px;
+}
+.flexCol--col-seccion-pelos{
+  background-color: rgb(219, 255, 170);
+}
+.flexColChild--col-seccion-pelos{
+  margin-bottom: 35px;
 }
