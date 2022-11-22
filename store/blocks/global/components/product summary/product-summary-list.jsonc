@@ -1,6 +1,6 @@
 {
 
-  "product-summary.shelf#listLayout": {
+  "product-summary.shelf#desktop__product--shelf--list": {
     "props": {
       "blockClass": "listLayout"
     },
