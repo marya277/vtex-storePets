@@ -3,9 +3,12 @@
     "responsive-layout.phone#spa":{
         "children":[
             "flex-layout.row#spa_phone--spa",
-            "flex-layout.row#spa_seccion--spa"
+             "flex-layout.row#spa_text--deluxe"
            
-        ]
+        ],
+    "props":{
+        "blockClass":"spa-responsive-phone"
+    }
     },
     "flex-layout.row#spa_phone--spa":{
         "children": [

@@ -51,3 +51,30 @@
 
 
 } */
+.imageElement--img1-pelos-spa{
+    border: 6px solid;
+    border-color: #FF8000;
+    border-radius: 146px;
+   
+}
+.imageElement--img2-pelos-spa{
+    border: 6px solid;
+    border-color: #ffd500;
+    border-radius: 146px;
+}
+.imageElement--img3-pelos-spa{
+    border: 6px solid;
+    border-color: #0800ff;
+    border-radius: 146px;
+}
+.imageElement--img4-pelos-spa{
+    border: 6px solid;
+    border-color: #FF8000;
+    border-radius: 146px;
+   
+}
+.imageElement--img5-pelos-spa{
+    border: 6px solid;
+    border-color: #0800ff;
+    border-radius: 146px;
+}
