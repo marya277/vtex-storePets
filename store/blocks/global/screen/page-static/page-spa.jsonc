@@ -1,0 +1,10 @@
+{
+    "store.custom#spa-pets": {
+        "blocks": [
+          "responsive-layout.desktop#spa",
+          "responsive-layout.tablet#spa",
+          "responsive-layout.phone#spa"
+          
+        ]
+      }
+}

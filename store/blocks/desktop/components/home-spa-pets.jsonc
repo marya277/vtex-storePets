@@ -23,7 +23,7 @@
     "title": "imagen de seccion-spa",
     "props": {
       "src": "assets/img/spa-deluxe.jpg",
-      "maxWidth":300,
+      "maxWidth":500,
       "blockClass": "img-col-spa"
     }
   },

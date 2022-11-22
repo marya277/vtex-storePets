@@ -15,7 +15,7 @@
         "viewBox": "0 0 16 16"
       }
     },
-    "minicart.v2#cart": {
+    "minicart.v2#custom": {
       "props": {
         "blockClass":"minicart-custom",
         "MinicartIcon": "icon-cart#cart-icon",

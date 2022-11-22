@@ -1,8 +1,19 @@
-
-
-.flexColChild--section_one--image {
-  max-width: 600px;
+.flexRow--col__info--header {
+  background-color:rgb(60, 41, 124);
 }
+.flexCol--row-info-contacto{
+  display: flex;
+  flex-direction: row;
+}
+.flexCol--row-info-redes{
+  display: flex;
+  flex-direction: row;
+}
+
+.flexRow--home__section--spa{
+  background-color:rgb(255, 194, 193) ;
+}
+
 
 .stretchChildrenWidth{
   display: flex;
@@ -56,7 +67,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 330px;
+  padding-left: 300px;
 }
 .flexRowContent--row-footer-global{
   display: flex;
@@ -114,5 +125,17 @@
     display: flex;
     flex-direction: column
   }
-
-  
+.flexRow--seccion-spa-bath{
+   margin-bottom: 20px;
+    height: auto;
+    margin-top: 33px;
+    background-color: rgb(243, 224, 255);
+}
+.flexColChild--img-spa-one{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.flexRow--Col-text-spa{
+  background-color: rgb(243, 224, 255);
+  margin-top: 0px;
+}
