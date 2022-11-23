@@ -56,10 +56,12 @@
   },
   "flex-layout.row#buy-button": {
     "props": {
+      "blockClass": "boton-plp-buy",
       "marginTop": 4,
       "marginBottom": 7
     },
     "children": ["buy-button"]
+  
   },
   "share#default": {
     "props": {

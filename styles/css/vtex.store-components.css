@@ -78,3 +78,6 @@
     border-color: #0800ff;
     border-radius: 146px;
 }
+.container{
+    padding-inline: 0;
+}
