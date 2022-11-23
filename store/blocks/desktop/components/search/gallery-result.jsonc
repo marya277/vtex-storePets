@@ -1,0 +1,49 @@
+{
+    "gallery#search__products--gallery": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "grid",
+                    "component": "GridSummary",
+                    "itemsPerRow": {
+                        "(min-width:1300px)": 4,
+                        "desktop": 4,
+                        "tablet": 3,
+                        "phone": 2
+                    }
+                },
+              
+                {
+                    "name": "list",
+                    "component": "ListSummary",
+                    "itemsPerRow": 1
+                }
+            ],
+            "GridSummary":"product-summary.shelf#product--shelf",
+            "ListSummary":"product-summary.shelf#product--shelf"
+        }
+    },
+    "gallery-layout-switcher": {
+        "children": [
+            "gallery-layout-option#grid",
+            "gallery-layout-option#list"
+        ]
+    },
+    "gallery-layout-option#grid": {
+        "props": {
+            "name": "grid"
+        },
+        "children": [
+            "icon-grid"
+        ]
+    },
+
+    "gallery-layout-option#list": {
+        "props": {
+            "name": "list"
+        },
+        "children": [
+            "icon-inline-grid"
+        ]
+    }
+}

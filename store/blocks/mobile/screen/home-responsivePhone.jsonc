@@ -15,7 +15,7 @@
          "flex-layout.row#home__ofertas--two",
          "flex-layout.row#home__ofertas--three",
          "flex-layout.row#home__section--spa",
-        "flex-layout.row#desktop__product--list"
+       "flex-layout.row#desktop__product--list"
         ]
       },
       /*  "rich-text#home__info--mobile": {

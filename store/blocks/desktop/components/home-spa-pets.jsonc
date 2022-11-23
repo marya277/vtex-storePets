@@ -39,11 +39,11 @@
       "text": "Spa Deluxe",
       "textAlign": "center",
       "font": "t-heading-1"
-    }
+          }
   },
   "rich-text#section__spa--paragraph": {
     "props": {
-      "text": "Incluye aromatérapia, masajes relajantes, baño con agua calientica, shampoo y  \n acondicionador con Aloe Vera, Romero y Manzanilla, limpieza de oídos y dientes,  \n peluquería, cepillado, blower, paticure, hidratación de pulpejos y nariz, aplicación de  \n Keratina, Vitamina E y Árgan, perfumado y un accesorio súper chic para que se vean de  \n lujo!!",
+      "text": "Incluye aromatérapia, masajes relajantes, baño con agua calientica, shampoo y\n acondicionador con Aloe Vera, Romero y Manzanilla, limpieza de oídos y dientes,\n peluquería, cepillado, blower, paticure, hidratación de pulpejos y nariz, aplicación de \n Keratina, Vitamina E y Árgan, perfumado y un accesorio súper chic para que se vean de lujo!!",
       "blockClass": "text-info-spa"
     }
   }

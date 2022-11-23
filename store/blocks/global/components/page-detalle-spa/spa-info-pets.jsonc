@@ -5,6 +5,7 @@
       "flex-layout.row#spa_info--pets",
       "flex-layout.row#spa_text--deluxe",
       "flex-layout.row#spa_seccion--pelos",
+      "flex-layout.row#spa_opciones--info",
       "flex-layout.row#spa_otras_opciones"
     ]
   },
@@ -53,7 +54,7 @@
     }
   },
   "rich-text#section__pelos--title": {
-    "title": "titulo seccion pelos",
+    "title": "texto seccion pelos",
     "props": {
       "text": "TRATAMIENTO DE ELIMINACIÓN DE PELO MUERTO",
       "font": "t-heading-3",
@@ -66,10 +67,25 @@
   "rich-text#section_pelos--one": {
     "title": "texto central seccion pelos",
     "props": {
-      "text": " Tratamiento complementario del SPA DELUXE, en el cual mediante el uso de diferentes cepillos y tratamientos capilares, se ayuda a eliminar el pelo muerto o pelo que se está mudando, para que tu peludo no esté botando tanto pelo en casa durante el mes que transcurre entre baño y baño.",
+      "text": " Tratamiento complementario del SPA DELUXE, en el cual mediante el uso de diferentes cepillos y tratamientos capilares, se \n  ayuda a eliminar el pelo muerto o pelo que se está mudando, para que tu peludo no esté botando tanto pelo en casa durante el \n  mes que transcurre entre baño y baño.",
       "textPosition": "CENTER",
       "textAlignment": "CENTER",
-      "blockClass": "text-title-pelos"
+      "blockClass": "text-seccion-pelos"
+    }
+  },
+  "flex-layout.row#spa_opciones--info":{
+   "children": [
+    "rich-text#spa__opciones--title"
+   ]
+  },
+  "rich-text#spa__opciones--title":{
+    "title": "titulo seccion pelos",
+    "props": {
+      "text": "OTRAS OPCIONES",
+      "font": "t-heading-2",
+      "blockClass": "text-otras opciones",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER"
     }
   },
  "flex-layout.row#spa_otras_opciones":{
@@ -79,12 +95,16 @@
     "flex-layout.col#spa_otras_opciones--two",
     "flex-layout.col#spa_otras_opciones--three ",
     "flex-layout.col#spa_otras_opciones--four "
-  ]
+  ],
+  "props": {
+    "marginTop":8
+  }
  },
  "flex-layout.col#spa_otras_opciones--one ":{
   "title": "col1 seccion opciones",
   "children": [
     "rich-text#opciones--one"
+    
   ],
   "props": {
     "horizontalAlign": "center",
@@ -156,7 +176,6 @@
   "title": "texto opciones limpieza",
     "props": {
       "text": "Limpieza de oidos  \n$7.000",
-      "font": "t-heading-3",
       "blockClass": "text-opcion4",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
