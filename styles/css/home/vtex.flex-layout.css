@@ -145,3 +145,9 @@
 .flexColChild--col-seccion-pelos{
   margin-bottom: 35px;
 }
+.flexRow--boton-plp-buy{
+  width: 50%;
+}
+.flexCol--search__results--content{
+ background-color: rgb(185, 249, 229);
+}

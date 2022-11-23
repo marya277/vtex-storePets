@@ -4,9 +4,9 @@
       "slider-layout#home__slider--children",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.desktop#home__info--desktop",
-      "responsive-layout.phone#home__info--phone",
+      "responsive-layout.phone#home__info--phone"
       //"search-result-layout"
-      "search-result-layout.customQuery#home"
+      //"search-result-layout.customQuery#home"
     ]
     
   }
