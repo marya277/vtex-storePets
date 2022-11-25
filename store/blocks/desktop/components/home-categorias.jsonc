@@ -48,6 +48,7 @@
       "src": "assets/img/img_category_01.jpg",
       "maxWidth":300,
       "blockClass":"img-col-category1"
+      
     }
   },
   "flex-layout.col#category__one--item-2":{
