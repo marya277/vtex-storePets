@@ -9,6 +9,9 @@
     border: 2px solid grey;
     max-width: 300px;
     background-color: gray;
-    background: rgba(255, 255, 255, .3);
+    background: rgba(255, 255, 255, 0.41);
     border: 1.5px solid rgba(209, 213, 219, 0.3);
+}
+.brandName{
+    margin-left: 64px;
 }

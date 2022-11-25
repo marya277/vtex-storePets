@@ -26,6 +26,7 @@
   justify-content: stretch;
 }
 
+
 .flexColdChid{
   width: 100%;
 }
@@ -106,7 +107,7 @@
     flex-direction: column;
 }
 .flexCol--col-slider-summary{
-  background-color: #9addee;
+  background-color: #d3eef5;
 }
 
 @media only screen 
