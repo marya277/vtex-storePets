@@ -81,3 +81,12 @@
 .container{
     padding-inline: 0;
 }
+.productImageTag--main{
+    width: 80%;
+}
+.productNameContainer{
+    margin-left: 28px;
+}
+.price_className{
+    margin-left: 23px;
+}

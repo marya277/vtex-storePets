@@ -1,16 +1,21 @@
 {
   "store.home": {
     "blocks": [
+      "whatsapp-button",
       "slider-layout#home__slider--children",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.desktop#home__info--desktop",
       "responsive-layout.phone#home__info--phone"
-      //"search-result-layout"
-      //"search-result-layout.customQuery#home"
+      
     ]
-    
+  },
+  "whatsapp-button":{
+    "props":{
+      "logo":"assets/img/logo_whatsapp.png",
+      "phone":"573217174674",
+      "message":"Happy Pets"    
   }
-  
 
+  }
 }
 
