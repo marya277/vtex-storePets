@@ -3,6 +3,7 @@
     "responsive-layout.desktop#home__info--desktop": {
         "title":"componente  escritorio",
         "children": [
+          "flex-layout.row#global__home--bullets",
           "rich-text#home__info--desktop",
           "flex-layout.row#home__section--two",
           "flex-layout.row#home__section--three",
