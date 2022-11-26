@@ -3,6 +3,7 @@
     "blocks": [
       "whatsapp-button",
       "slider-layout#home__slider--children",
+      "bullets-diagramation",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.desktop#home__info--desktop",
       "responsive-layout.phone#home__info--phone"
@@ -12,8 +13,8 @@
   "whatsapp-button":{
     "props":{
       "logo":"assets/img/logo_whatsapp.png",
-      "phone":"573217174674",
-      "message":"Happy Pets"    
+      "phone":"3217174674",
+      "message":" bienvenido a Happy Pets"    
   }
 
   }
