@@ -1,4 +1,5 @@
-.minicartIconContainer--minicart-desktop{
+
+ .minicartContainer--minicart-custom{
   width: 40px;
   height: 40px;
   -moz-border-radius: 50%;
@@ -9,9 +10,8 @@
    display:flex;
    align-items: center;
     justify-content: center;
-  }
-  .minicartQuantityBadge--minicart-desktop{
-   
-    margin-right: 13px ;
-    background-color: rgb(60, 41, 124);
+ }
+ .minicartQuantityBadge--minicart-custom{
+  margin-left: 13px ;
+  background-color: rgb(60, 41, 124);
  }

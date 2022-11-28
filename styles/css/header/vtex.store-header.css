@@ -2,3 +2,7 @@
 .headerRowContainer--header__middle{
     background-color: black;
 }
+.headerRowContainer--header__top{
+    overflow:hidden;
+    padding: 0 5%;
+}

@@ -17,10 +17,11 @@
         "viewBox": "0 0 16 16"
       }
     },
-    "minicart.v2#custom": {
+    //"minicart.v2#custom": {
+      "minicart.v2": {
       "props": {
         "blockClass":"minicart-custom",
-        "MinicartIcon": "icon-cart#cart-icon",
+        "MinicartIcon": "icon#minicart__icon",
         "variation":"popup",
         "itemCountMode": "total",
         "quantityDisplay": "always"
