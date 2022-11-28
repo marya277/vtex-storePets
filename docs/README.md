@@ -1,6 +1,6 @@
 # Clon de tienda  Hapyy  Pets Co
 
-Vtex-StorePets es un clon de la tienda oficial  Happy Petsco
+Vtex-StorePets es un clon de la tienda oficial   [ Happy PetsCo](https://www.happypetsco.com/)
 
 **Preview**
 
