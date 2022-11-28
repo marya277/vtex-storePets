@@ -20,7 +20,7 @@ color: aliceblue;
     
 }
 
-.paragraph--texto-tienda2{
+.paragraph--texto-tienda2,.paragraph--spa__title-taablet{
     color:#000000;
     font-size: 34px;
     font-weight:700;
@@ -92,6 +92,7 @@ color: rgb(138, 138, 138);
     font-size:18px;
 
   }
+  
  .paragraph--text-info-spa{
     font-family: sans-serif;
     font-weight: 500;
@@ -102,7 +103,12 @@ color: rgb(138, 138, 138);
     font-size: 42;
     color:rgb(46, 185, 214)
  }
- 
+ .paragraph--spa__title-taablet{
+    font-weight: 400;
+    font-size: 42;
+    color:rgb(46, 185, 214);
+    margin-left: 66px;
+ }
  .headingLevel1--title-categorias{
     font-size: 52;
     margin-left: 10px;
@@ -145,8 +151,11 @@ color: rgb(138, 138, 138);
 
     }
     }
-    .wrapper--text-footer-head{
+    .wrapper--text-footer-head,.wrapper--text-footer-ubicanos,.wrapper--text-footer-contactanos{
         border-bottom: 3px solid #00deff;
+    }
+    .wrapper--text-footer-head{
+        margin-left: 20px;
     }
     .paragraph--text-title-spa{
     color: #800080;
@@ -179,8 +188,20 @@ color: rgb(138, 138, 138);
     background-color: rgb(252, 205, 143);
     width: 300px;
     height: 280px;
-    font-size: 34px;
+    font-size: 34px;  
+}
+.container--text-spa-info,.container--text-title-spa,.container--text-info-enredos{
+    background-color: rgb(243, 224, 255);
+}
+ .container--text-footer-ubicanos,.container--text-footer-direccion,.container--text-footer-celular,.container--text-footer-telefono{
+    margin-left: 20px;
 }
 .paragraph--instagram-title{
     color: #3c297c;
+}
+.container--footer-copyright{
+    background-color: rgb(60, 41, 124);
+}
+.paragraph--footer-copyright{
+    color:white;
 }

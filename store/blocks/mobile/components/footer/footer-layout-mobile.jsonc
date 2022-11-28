@@ -10,8 +10,8 @@
       "flex-layout.row#footer_mobile--down" 
     ],
     "props": {
-      "blockClass": "row-footer-global"
-      //"colSizing": "auto"
+      "blockClass": "row-footer-global",
+      "colSizing": "auto"
     }
   },
   "flex-layout.row#footer_mobile--top":{
@@ -20,8 +20,8 @@
    "flex-layout.col#top__footer--two"
     ],
     "props": {
-      "blockClass": "row-tablet-top",
-      "preventHorizontalStretch":true
+      "blockClass": "row-tablet-top"
+      //"preventHorizontalStretch":true
     }
   },
   "flex-layout.col#top__ footer--one":{
@@ -40,17 +40,11 @@
   "image#footer--tablet":{
     "props": {
       "src": "assets/img/logo-pets.png",
-      "maxWidth": 200,
+      "maxWidth": 150,
       "blockClass": "img-footer-tablet"
     }
   },
-  "rich-text#footer_tablet--logo":{
-    "props": {
-      "text": "Empresa Colombiana que surge de la \n dedicación y amor por los animales;\ncontamos con variados productos\n nacionales e importados para consentir\n a los peludos con estilo e innovación.",
-      "textPosition": "CENTER",
-      "blockClass": "text-footer-tablet"
-    }
-  },
+ 
   "flex-layout.col#top__footer--two":{
     "children":[
 "flex-layout.row#footer_two--enlace",
@@ -79,21 +73,24 @@
     "children": [
       "flex-layout.col#middle__ footer--one",
        "flex-layout.col#middle__footer--two"
-    ]
+    ],
+    "props": {
+      "colSizing": "equal",
+      "blockClass": "row-footer-middle-mobile"
+    }
   },
 
   "flex-layout.col#middle__ footer--one":{
     "children": [
-      "rich-text#section__three--footer",
-      "rich-text#footer_section--three-direccion",
-      "image#footer__ubicacion"
-  
+      "rich-text#footer_ubicanos",
+      "rich-text#footer_direccion",
+      "image#footer__ubicacion--mobile"
     ],
     "props": {
-      "width":"100%"
+     
     }
   },
-"image#footer__ubicacion":{
+"image#footer__ubicacion--mobile":{
   "props": {
     "src": "assets/img/img_ubicacion.png",
     "maxWidth": 250,
@@ -102,12 +99,11 @@
 },
   "flex-layout.col#middle__footer--two":{
     "children": [
-      "rich-text#section__four--footer",
-      "rich-text#section__four--footer--correo",
-      "rich-text#section__four--footer--telefono",
-      "rich-text#section__four--footer--celular",
-      "vtex.menu@2.x:menu#footer"
- 
+     "rich-text#footer_contactanos",
+     "rich-text#footer_correo--mobile",
+     "rich-text#footer_telefono",
+     "rich-text#footer_celular",
+     "vtex.menu@2.x:menu#footer"
     ]
   },
   "flex-layout.row#footer_mobile--down":{
@@ -117,12 +113,13 @@
       "flex-layout.row#footer_down--three"
     ],
     "props": {
-      "blockClass": "footer-down-tablet"
+      "blockClass": "footer-down-tablet",
+      "colSizing": "auto"
     }
   },
   "flex-layout.row#footer_down--one":{
     "children": [
-      "rich-text#footer__pagos"
+      "rich-text#footer__pagos--mobile"
     ],
     "props": {
       "blockClass": "row-tablet-text-pagos"
@@ -135,18 +132,11 @@
   },
   "flex-layout.row#footer_down--three":{
     "children": [
-      "rich-text#footer__copyright"
+      "rich-text#footer__copyright--mobile"
     ]
-  },
-  "rich-text#footer__pagos":{
-    "props": {
-      "text": "Pago seguro a través de ePayco",
-      "textPosition": "CENTER",
-       "textAlignment": "CENTER",
-      "blockClass": "text-tablet-epayco"
-    }
   }
-
+  
+    
     }
 
 

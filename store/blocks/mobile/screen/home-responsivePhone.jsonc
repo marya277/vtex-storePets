@@ -3,7 +3,9 @@
         "title": "componente movil",
         "children": [
          
-          //"rich-text#home__info--mobile",
+          
+          
+          "flex-layout.row#global__home--bullets",
           "flex-layout.row#home__section--two",
           "flex-layout.row#home__section--three",
           "flex-layout.row#home__section--video",
@@ -14,19 +16,12 @@
           "rich-text#home__info--ofertas",
          "flex-layout.row#home__ofertas--two",
          "flex-layout.row#home__ofertas--three",
-         "flex-layout.row#home__section--spa",
+         "flex-layout.row#home__section--spa--mobile",
        "flex-layout.row#desktop__product--list"
         ]
       },
-      /*  "rich-text#home__info--mobile": {
-        "props": {
-          "text": "## Nuevos productos",
-          "blockClass": "title-info-mobile",
-          "textAlign":"CENTER",
-          "textPosition":"CENTER"
-        }
-      } , */
-      "rich-text#tablet__info--categorias": {
+   
+      "rich-text#tablet__info--categorias--phone": {
         "props": {
           "text": "## Nuestras categorias",
           "blockClass": "phone-info-categorias",

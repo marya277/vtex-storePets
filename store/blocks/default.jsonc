@@ -1,5 +1,5 @@
 {
-  "store.orderplaced": {
+  /* "store.orderplaced": {
     "blocks": ["order-placed"]
   },
 
@@ -32,5 +32,5 @@
       "product-identifier.summary",
       "add-to-cart-button"
     ]
-  }
+  } */
 }

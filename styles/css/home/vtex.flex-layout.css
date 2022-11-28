@@ -9,11 +9,14 @@
   display: flex;
   flex-direction: row;
 }
-
-.flexRow--home__section--spa{
+.flexRow--row-global-spa{
   background-color:rgb(255, 194, 193) ;
 }
-
+.flexRowContent--row-spa-tablet{
+  background-color:rgb(255, 194, 193) ;
+  display: flex;
+  flex-direction: column;
+}
 
 .stretchChildrenWidth{
   display: flex;
@@ -127,10 +130,13 @@
     flex-direction: column
   }
 .flexRow--seccion-spa-bath{
-   margin-bottom: 10px;
+   margin: bottom 0;;
     height: auto;
     margin-top: 03px;
     background-color: rgb(243, 224, 255);
+}
+.flexRow--row-seccion-segunda{
+  background-color: rgb(243, 224, 255);
 }
 .flexColChild--img-spa-one,.flexColChild--img-spa-two,.flexRow--row-tablet-segunda{
   margin-top: 30px;
@@ -151,4 +157,21 @@
 }
 .flexCol--search__results--content{
  background-color: rgb(185, 249, 229);
+}
+.flexRowContent--department_section--one{
+  background-color: brown;
+}
+.flexRow--boton-plp-buy{
+  margin-left: 65px;
+}
+.flexRowContent--row-tablet-topflexRowContent--row-tablet-top{
+  display: flex;
+  flex-direction: column;
+}
+.flexRowContent--global__home--bullets{
+  padding:20px;
+  background-color: rgb(185, 249, 229);
+}
+.flexRowContent--home__section--spa{
+  background-color: rgb(255, 193, 194);
 }

@@ -25,9 +25,10 @@
     "flex-layout.col#ofertas__two--item-1": {
       "children": [
         "image#home_ofertas--one", 
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item1",
+        "rich-text#titulo_section2--item1",
+        "rich-text#titulo_section3--item1"
+        
       ],
       "props":{
         "blockClass":"category-one",
@@ -35,40 +36,12 @@
         "vertical-align":"middle"
       }
     },
-    "rich-text#titulo_section__one":{
-      "props": {
-        "text": "Categoria",
-        "textPosition":"CENTER",
-        "textAlignment": "CENTER",
-        "blockClass":"text-categoria-home1"
-      }
-    },
-    "rich-text#titulo_section__two":{
-      "props": {
-        "text": "productos",
-        "textPosition":"CENTER",
-        "textAlignment": "CENTER",
-        "blockClass":"text-categoria-home2"
-      }
-    },
-    "rich-text#titulo_section__three":{
-      "props": {
-        "text": " $ 44.900",
-        "textPosition":"CENTER",
-        "textAlignment": "CENTER",
-        "blockClass":"text-categoria-home3",
-        "textColor": "warning"
-      }
-    },
-  
-  
-    
     "flex-layout.col#ofertas__two--item-2": {
       "children": [
         "image#home_ofertas--two", 
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item2",
+        "rich-text#titulo_section2--item2",
+        "rich-text#titulo_section3--item2"
       ],
       "props":{
         "blockClass":"category-two",
@@ -80,9 +53,9 @@
     "flex-layout.col#ofertas__two--item-3": {
       "children": [
         "image#home_ofertas--three", 
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item3",
+        "rich-text#titulo_section2--item3",
+        "rich-text#titulo_section3--item3"
       ],
       "props":{
         "blockClass":"category-three",
@@ -93,9 +66,9 @@
     "flex-layout.col#ofertas__two--item-4": {
       "children": [
         "image#home_ofertas--four", 
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item4",
+        "rich-text#titulo_section2--item4",
+        "rich-text#titulo_section3--item4"
       ],
       "props":{
         "blockClass":"category-four",
@@ -150,9 +123,9 @@
     "flex-layout.col#ofertas__two--item-5": {
       "children": [
         "image#home_ofertas--five",
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item5",
+        "rich-text#titulo_section2--item5",
+        "rich-text#titulo_section4--item5"
   
       ],
       "props":{
@@ -165,9 +138,9 @@
     "flex-layout.col#ofertas__two--item-6": {
       "children": [
         "image#home_ofertas--six", 
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item6",
+        "rich-text#titulo_section2--item6",
+        "rich-text#titulo_section4--item6"
       ],
       "props":{
         "verticalAlign":"middle",
@@ -179,9 +152,9 @@
     "flex-layout.col#ofertas__two--item-7": {
       "children": [
         "image#home_ofertas--seven", 
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item7",
+        "rich-text#titulo_section2--item7",
+        "rich-text#titulo_section4--item7"
       ],
       "props":{
         "verticalAlign":"middle",
@@ -193,9 +166,9 @@
     "flex-layout.col#ofertas__two--item-8": {
       "children": [
         "image#home_ofertas--eight", 
-        "rich-text#titulo_section__one",
-        "rich-text#titulo_section__two",
-        "rich-text#titulo_section__three"
+        "rich-text#titulo_section1--item8",
+        "rich-text#titulo_section2--item8",
+        "rich-text#titulo_section4--item8"
       ],
       "props":{
         "verticalAlign":"middle",

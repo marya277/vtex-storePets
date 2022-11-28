@@ -19,8 +19,8 @@
                     "itemsPerRow": 1
                 }
             ],
-            "GridSummary":"product-summary.shelf#product--shelf",
-            "ListSummary":"product-summary.shelf#product--shelf"
+            "GridSummary":"product-summary.shelf#product--plp",
+            "ListSummary":"product-summary.shelf#product--plp"
         }
     },
     "gallery-layout-switcher": {

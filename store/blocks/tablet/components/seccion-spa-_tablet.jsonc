@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#home__section--spa--mobile":{
+        "children": [
+          
+            "flex-layout.col#spa_info--text"
+       
+        ],
+        "props": {
+            "blockClass": "row-spa-tablet",
+            "horizontalAlign":"center"
+        }
+    },
+    "flex-layout.col#spa_info--text":{
+        "children":[
+         "rich-text#section_spa--title",
+         "info-card"
+        ]
+    },
+    "rich-text#section_spa--title": {
+        "props": {
+          "blockClass": "spa__title-taablet",
+          "text": "Spa Deluxe",
+          "textAlignment": "CENTER",
+    
+          "font": "t-heading-1"
+              }
+      }
+     }
