@@ -1,0 +1,64 @@
+{
+     "rich-text#footer_tablet--logo":{
+    "props": {
+      "text": "Empresa Colombiana que surge de la \n dedicación y amor por los animales;\ncontamos con variados productos\n nacionales e importados para consentir\n a los peludos con estilo e innovación.",
+      "textPosition": "CENTER",
+      "blockClass": "text-footer-tablet"
+    }
+  },
+    "rich-text#footer__pagos--mobile":{
+        "props": {
+          "text": "Pago seguro a través de ePayco",
+          "textPosition": "CENTER",
+           "textAlignment": "CENTER",
+          "blockClass": "text-tablet-epayco"
+        }
+      },
+    
+    "rich-text#footer__copyright--mobile":{
+      "props": {
+        "text": "HAPPY PETS CO © 2021 - Todos los derechos reservados.",
+        "textPosition": "CENTER",
+        "blockClass": "footer-copyright"
+      }
+    },
+    "rich-text#footer_ubicanos":{
+      "props": {
+        "text": "Ubicanos",
+        "font": "t-heading-3",
+        "blockClass": "text-footer-ubicanos"
+      }
+    },
+    
+    "rich-text#footer_direccion":{
+      "props": {
+        "text": "  **Dirección:** \n  Avenida Cra. 15 # 140 - 14 \n (Al lado de Lili Pink)  \n  Bogotá - Colombia  \n ",
+            "blockClass": "text-footer-direccion"
+      }
+    },
+    "rich-text#footer_contactanos":{
+        "props": {
+            "text": "Contactanos",
+            "font": "t-heading-3",
+            "blockClass": "text-footer-contactanos"
+          }
+    },
+    "rich-text#footer_correo--mobile": {
+        "props": {
+          "text": "Correo:info@happypetsco.com",
+         "blockClass": "footer-correo-mobile"
+        }
+      },
+      "rich-text#footer_telefono": {
+        "props": {
+          "text": "**Teléfono:**  \n   \n +57(1) 7034727",
+          "blockClass": "footer-telefono-mobile"
+        }
+      },
+      "rich-text#footer_celular": {
+        "props": {
+          "text": " Celular:  \n  \n 312 4329632",
+          "blockClass": "footer-celular--mobile"
+        }
+      }
+}

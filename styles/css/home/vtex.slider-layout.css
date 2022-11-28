@@ -1,5 +1,5 @@
 .sliderLayoutContainer--home_slider{
-    max-width:1200px;
+    /*max-width:1200px;*/
     margin: 0 auto;
 }
 .paginationDotsContainer--slider{
@@ -10,4 +10,10 @@
  width: 100%;
  height: 100%;
  margin:0;
+}
+.paginationDot--bullet-group{
+    transform:translateY(-64px); 
+}
+.bullet__item--bullet-group{
+    padding: 20px;
 }

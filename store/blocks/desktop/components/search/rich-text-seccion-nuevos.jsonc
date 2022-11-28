@@ -1,0 +1,208 @@
+{
+    "rich-text#titulo_nuevos#_item1":{
+        "props": {
+          "text": "OTROS/ROPA",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+      "rich-text#titulo_nuevos#_item2":{
+        "props": {
+          "text": "ASEO Y BELLEZA",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+      "rich-text#titulo_nuevos#_item3":{
+        "props": {
+          "text": "OTROS/SNACK",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+      "rich-text#titulo_nuevos#_item4":{
+        "props": {
+          "text": "PARA GATITOS/SNACK",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+      "rich-text#titulo_nuevos#_item5":{
+        "props": {
+          "text": "ASEO Y BELLEZA",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+      "rich-text#titulo_nuevos#_item6":{
+        "props": {
+          "text": "ASEO Y BELLEZA",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+      "rich-text#titulo_nuevos#_item7":{
+        "props": {
+          "text": "ASEO Y BELLEZA",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+      "rich-text#titulo_nuevos#_item8":{
+        "props": {
+          "text": "ASEO Y BELLEZA",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home1"
+        }
+      },
+
+      //?rich-text productos nuevos
+    
+      "rich-text#productos_item1":{
+        "props": {
+          "text": "12 Gafas Medianas",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home2"
+        }
+      },
+      "rich-text#productos_item2":{
+        "props": {
+          "text": "Eliminador De Olores Petys ",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home2"
+        }
+      },
+      "rich-text#productos_item3":{
+        "props": {
+          "text": "Bocaditos Multi Con Verduras",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home2"
+        }
+      },
+      "rich-text#productos_item4":{
+        "props": {
+          "text": "Snack Relleno Lovpets Cats",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home2"
+        }
+      },
+      "rich-text#productos_item5":{
+        "props": {
+          "text": "Esencia de Valeriana",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home2"
+        }
+      },
+      "rich-text#productos_item6":{
+        "props": {
+          "text": "Gotas Tranqui Pets Relax",
+          "textPosition":"CENTER",
+          "textAlignment": "CENTER",
+          "blockClass":"text-categoria-home2"
+        }
+      },
+"rich-text#productos_item7":{
+    "props": {
+      "text": "Esencia Travel Essence (viajes)",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home2"
+    }
+  },
+  "rich-text#productos_item8":{
+    "props": {
+      "text": "Spray Aqui No Cat",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home2"
+    }
+  },
+  //? rich-text precios
+   
+  "rich-text#precios_nuevos--item1":{
+    "props": {
+      "text": " $ 40.000",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  },
+  "rich-text#precios_nuevos--item2":{
+    "props": {
+      "text": " $ 27.000",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  },
+  "rich-text#precios_nuevos--item3":{
+    "props": {
+      "text": " $ 10.000",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  },
+  "rich-text#precios_nuevos--item4":{
+    "props": {
+      "text": " $ 8.500",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  },
+  "rich-text#precios_nuevos--item5":{
+    "props": {
+      "text": " $ 30.000",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  },
+  "rich-text#precios_nuevos--item6":{
+    "props": {
+      "text": " $ 58.000",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  },
+  "rich-text#precios_nuevos--item7":{
+    "props": {
+      "text": " $ 30.000",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  },
+  "rich-text#precios_nuevos--item8":{
+    "props": {
+      "text": " $ 35.000",
+      "textPosition":"CENTER",
+      "textAlignment": "CENTER",
+      "blockClass":"text-categoria-home3"
+       
+    }
+  }
+
+}

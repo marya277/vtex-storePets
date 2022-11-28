@@ -3,22 +3,11 @@
     width:auto;
 }
 
-    
-/* .styledLinkContainer:hover{
-    background-color: rgb(46, 185, 214);
-} */
- .styledLinkContent{
+.styledLinkContent{
     font-style:sans-serif;
     font-weight: 800;
     font-size: 16px;
-    /*color:#595656 ;*/
 }
- /* .styledLinkContainer:hover{
-    background-color:rgb(46, 185, 214);
-} 
-.styledLinkContent:hover{
-    color:white;
-}  */
 
 .accordionIcon--item-drawer{
     visibility: hidden;
@@ -40,4 +29,7 @@
 }
 .menuContainer--menu-footer-redes .styledLinkContainer, .styledLinkContainer--footer__menu-item{
 	margin-left: 0 !important;
+}
+.menuContainerNav--menu-footer-redes{
+    margin-left: 20px;
 }

@@ -30,7 +30,8 @@
   "flex-layout.col#section__spa--text": {
     "children": [
       "rich-text#section__one--spa",
-      "rich-text#section__spa--paragraph"
+      "rich-text#section__spa--paragraph",
+      "link#spa__btn-info"
     ]
   },
   "rich-text#section__one--spa": {
@@ -46,5 +47,14 @@
       "text": "Incluye aromatérapia, masajes relajantes, baño con agua calientica, shampoo y\n acondicionador con Aloe Vera, Romero y Manzanilla, limpieza de oídos y dientes,\n peluquería, cepillado, blower, paticure, hidratación de pulpejos y nariz, aplicación de \n Keratina, Vitamina E y Árgan, perfumado y un accesorio súper chic para que se vean de lujo!!",
       "blockClass": "text-info-spa"
     }
-  }
+  },
+  "link#spa__btn-info": { 
+    "title": "btn-info", 
+    "props": { 
+      "href": "/home-spa",
+      "blockClass": "btn-info", 
+      "displayMode": "button",
+       "label": "Más información"
+       } 
+      }
 }

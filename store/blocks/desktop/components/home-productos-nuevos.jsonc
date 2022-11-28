@@ -18,9 +18,9 @@
   "flex-layout.col#section__two--item-1": {
     "children": [
       "image#home_category--one", 
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item1",
+      "rich-text#productos_item1",
+      "rich-text#precios_nuevos--item1"
     ],
     "props":{
       "blockClass":"category-one",
@@ -28,40 +28,12 @@
       "vertical-align":"middle"
     }
   },
-  "rich-text#titulo_section__one":{
-    "props": {
-      "text": "Categoria",
-      "textPosition":"CENTER",
-      "textAlignment": "CENTER",
-      "blockClass":"text-categoria-home1"
-    }
-  },
-  "rich-text#titulo_section__two":{
-    "props": {
-      "text": "productos",
-      "textPosition":"CENTER",
-      "textAlignment": "CENTER",
-      "blockClass":"text-categoria-home2"
-    }
-  },
-  "rich-text#titulo_section__three":{
-    "props": {
-      "text": " $ 44.900",
-      "textPosition":"CENTER",
-      "textAlignment": "CENTER",
-      "blockClass":"text-categoria-home3"
-       
-    }
-  },
-
-
-  
   "flex-layout.col#section__two--item-2": {
     "children": [
       "image#home_category--two", 
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item2",
+      "rich-text#productos_item2",
+      "rich-text#precios_nuevos--item2"
     ],
     "props":{
       "blockClass":"category-two",
@@ -73,9 +45,9 @@
   "flex-layout.col#section__two--item-3": {
     "children": [
       "image#home_category--three", 
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item3",
+      "rich-text#productos_item3",
+      "rich-text#precios_nuevos--item3"
     ],
     "props":{
       "blockClass":"category-three",
@@ -86,9 +58,9 @@
   "flex-layout.col#section__two--item-4": {
     "children": [
       "image#home_category--four", 
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item4",
+      "rich-text#productos_item4",
+      "rich-text#precios_nuevos--item4"
     ],
     "props":{
       "blockClass":"category-four",
@@ -113,9 +85,9 @@
   "flex-layout.col#section__two--item-5": {
     "children": [
       "image#home_category--five",
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item5",
+      "rich-text#productos_item5",
+      "rich-text#precios_nuevos--item5"
 
     ],
     "props":{
@@ -128,9 +100,9 @@
   "flex-layout.col#section__two--item-6": {
     "children": [
       "image#home_category--six", 
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item6",
+      "rich-text#productos_item6",
+      "rich-text#precios_nuevos--item6"
     ],
     "props":{
       "verticalAlign":"middle",
@@ -142,9 +114,9 @@
   "flex-layout.col#section__two--item-7": {
     "children": [
       "image#home_category--seven", 
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item7",
+      "rich-text#productos_item7",
+      "rich-text#precios_nuevos--item7"
     ],
     "props":{
       "verticalAlign":"middle",
@@ -156,9 +128,9 @@
   "flex-layout.col#section__two--item-8": {
     "children": [
       "image#home_category--eight", 
-      "rich-text#titulo_section__one",
-      "rich-text#titulo_section__two",
-      "rich-text#titulo_section__three"
+      "rich-text#titulo_nuevos#_item8",
+      "rich-text#productos_item8",
+      "rich-text#precios_nuevos--item8"
     ],
     "props":{
       "verticalAlign":"middle",

@@ -52,7 +52,7 @@
     "props": {
         "itemsPerPage": {
             "desktop": 4,
-            "tablet": 3,
+            "tablet": 2,
             "phone": 1
         },
         "infinite": true,
@@ -83,6 +83,7 @@
 "flex-layout.row#shelf_desktop--price":{
   "children":[
     "product-summary-price"
+
   ],
   "props":{
     "blockClass":"row-summary-price-home",
@@ -91,14 +92,14 @@
 },
 "flex-layout.row#shelf_desktop--buton":{
   "children": [
-     "add-to-cart-button"
+     "add-to-cart-button#desktop"
   ],
   "props": {
     "blockClass": "row-button-shelf-home"
     
   }
 },
-"add-to-cart-button": {
+"add-to-cart-button#desktop": {
   "props": {
       "text": "Añadir al carrito",
       "blockClass": "comprar-button--home"

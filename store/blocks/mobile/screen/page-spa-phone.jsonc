@@ -3,7 +3,10 @@
     "responsive-layout.phone#spa":{
         "children":[
             "flex-layout.row#spa_phone--spa",
-             "flex-layout.row#spa_text--deluxe"
+             "flex-layout.row#spa_text--deluxe",
+             "flex-layout.row#spa_seccion--pelos",
+             "flex-layout.row#spa_opciones--info",
+             "flex-layout.row#spa_otras_opciones"
            
         ],
     "props":{
@@ -15,5 +18,24 @@
             "flex-layout.row#spa_info--pets"
            
         ]
-    }
+    },
+    "flex-layout.row#spa_text--deluxe": {
+        "title": "seccion-spa-inicial",
+        "children": ["flex-layout.col#spa_info--text"],
+        "props": {
+          "blockClass": "row-spa",
+          "fullWidth":true
+        }
+      },
+      "flex-layout.col#spa_info--text": {
+        "title": "col-seccion inicial spa",
+        "children": [
+          "flex-layout.row#spa_seccion--spa",
+          "rich-text#title_spa",
+          "rich-text#section__spa",
+          "rich-text#section_spa--one",
+          "flex-layout.row#spa_seccion--segunda"
+        ]
+      }
+     
 }

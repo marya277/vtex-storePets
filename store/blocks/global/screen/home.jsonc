@@ -3,7 +3,6 @@
     "blocks": [
       "whatsapp-button",
       "slider-layout#home__slider--children",
-      "bullets-diagramation",
       "responsive-layout.mobile#home__info--mobile",
       "responsive-layout.desktop#home__info--desktop",
       "responsive-layout.phone#home__info--phone"
