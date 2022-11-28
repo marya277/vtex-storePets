@@ -1,23 +1,27 @@
 {
+  
     "flex-layout.row#global__home--bullets": {
       "title": "container-bullets-diagramation", 
       "children": ["list-context.bullet-group"], 
-      "props": {"blockClass": "global__home--bullets"}
+      "props": {
+        "blockClass": "global__home--bullets"}
     },
     "list-context.bullet-group": {
-      "title": "Mi contexto de lista",
+      "title": " contexto-lista",
       "children": ["slider-layout#bullet-group"],
       "props": {
         "bullets": [
           {
             "image": "assets/img/bullet_01.png", 
-            "titleBullet": "ropa", 
+            "maxWidth": 240,
+            "titleBullet": "Ropa", 
             "link": {
               "url": "/"
             }
           }, 
           {
             "image": "assets/img/bullet_02.png", 
+            "maxWidth": 240,
             "titleBullet": "Temporada", 
             "link": {
               "url": "/"
@@ -25,6 +29,7 @@
           },
           {
             "image": "assets/img/bullet_03.png", 
+            "maxWidth": 240,
             "titleBullet": "Outfit", 
             "link": {
               "url": "/"
@@ -32,13 +37,15 @@
           }, 
           {
             "image": "assets/img/bullet_04.png", 
+            "maxWidth": 240,
             "titleBullet": "Ropa", 
             "link": {
               "url": "/"
             }
           },
           {
-            "image": "assets/img/bullet_05.png", 
+            "image": "assets/img/bullet_05.png",
+            "maxWidth": 240,
             "titleBullet": "Ropa", 
             "link": {
               "url": "/"
@@ -46,6 +53,7 @@
           }, 
           {
             "image": "assets/img/bullet_06.png", 
+            "maxWidth": 240,
             "titleBullet": "Temporada", 
             "link": {
               "url": "/"
@@ -53,6 +61,7 @@
           }, 
           {
             "image": "assets/img/bullet_07.png", 
+            "maxWidth": 240,
             "titleBullet": "Outfit", 
             "link": {
               "url": "/"
@@ -60,6 +69,7 @@
           }, 
           {
             "image": "assets/img/bullet_08.png", 
+            "maxWidth": 240,
             "titleBullet": "Ropa", 
             "link": {
               "url": "/"
@@ -67,27 +77,31 @@
           }, 
           {
             "image": "assets/img/bullet_09.png", 
+            "maxWidth": 240,
             "titleBullet": "Ropa", 
             "link": {
               "url": "/"
             }
           }, 
           {
-            "image": "assets/img/bullet_10.png", 
+            "image": "assets/img/bullet_10.png",
+            "maxWidth": 240,
             "titleBullet": "Outfit", 
             "link": {
               "url": "/"
             }
           },
           {
-            "image": "assets/img/bullet_11.png", 
+            "image": "assets/img/bullet_11.png",
+            "maxWidth": 240, 
             "titleBullet": "Ropa", 
             "link": {
               "url": "/"
             }
           }, 
           {
-            "image": "assets/img/bullet_12.png", 
+            "image": "assets/img/bullet_12.png",
+            "maxWidth": 240, 
             "titleBullet": "Ropa", 
             "link": {
               "url": "/"
@@ -100,12 +114,17 @@
       "title": "slider-bullet-group",
       "props": {
         "blockClass": "bullet-group",
+        "marginTop":7,
         "itemsPerPage": {
-          "desktop": 5, 
-          "tablet": 5, 
-          "mobile": 5
+          "desktop": 4, 
+          "tablet": 3, 
+          "mobile": 1
         }, 
-        "infinite": true
+        "infinite": true,
+        "autoplay": {
+          "timeout": 3000,
+          "stopOnHover": true
       }
+    }
     }
   }

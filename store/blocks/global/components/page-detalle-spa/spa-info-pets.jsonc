@@ -3,7 +3,11 @@
     "title": "responsive desktop spa",
     "children": [
       "flex-layout.row#spa_info--pets",
-      "flex-layout.row#spa_text--deluxe",
+      "flex-layout.row#spa_seccion--spa",
+      "rich-text#title_spa",
+      "rich-text#section__spa",
+      "rich-text#section_spa--one",
+     "flex-layout.row#spa_seccion--segunda",
       "flex-layout.row#spa_seccion--pelos",
       "flex-layout.row#spa_opciones--info",
       "flex-layout.row#spa_otras_opciones"
@@ -19,24 +23,7 @@
    
     }
   },
-  "flex-layout.row#spa_text--deluxe": {
-    "title": "seccion-spa-inicila",
-    "children": ["flex-layout.col#spa_info--text"],
-    "props": {
-      "blockClass": "Col-text-spa"
-    }
-  },
-  "flex-layout.col#spa_info--text": {
-    "title": "col-seccion inicial spa",
-    "children": [
-      "flex-layout.row#spa_seccion--spa",
-      "rich-text#title_spa",
-      "rich-text#section__spa",
-      "rich-text#section_spa--one",
-      "flex-layout.row#spa_seccion--segunda"
-    ]
-  },
-  
+   
 
   "flex-layout.row#spa_seccion--pelos": {
     "title": "seccion spa pelos",

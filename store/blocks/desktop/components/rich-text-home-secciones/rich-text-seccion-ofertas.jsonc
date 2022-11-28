@@ -1,0 +1,211 @@
+{
+  "rich-text#titulo_section1--item1": {
+    "props": {
+      "text": "ARNES/PEHERA PARA GATITOS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+  "rich-text#titulo_section1--item2": {
+    "props": {
+      "text": "CAMAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+
+  "rich-text#titulo_section1--item3": {
+    "props": {
+      "text": "CAMAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+  "rich-text#titulo_section1--item4": {
+    "props": {
+      "text": "CAMAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+  "rich-text#titulo_section1--item5": {
+    "props": {
+      "text": "CAMAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+  "rich-text#titulo_section1--item6": {
+    "props": {
+      "text": "CAMAS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+  "rich-text#titulo_section1--item7": {
+    "props": {
+      "text": "COMEDEROS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+  "rich-text#titulo_section1--item8": {
+    "props": {
+      "text": "JUGUETES",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home1"
+    }
+  },
+  //?rich-text-productos
+  "rich-text#titulo_section2--item1": {
+    "props": {
+      "text": "ArnésPecheraDogLemi",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+
+  "rich-text#titulo_section2--item2": {
+    "props": {
+      "text": "Cama Flowers Touch Dog",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+  "rich-text#titulo_section2--item3": {
+    "props": {
+      "text": "Cama Katsu Club",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+  "rich-text#titulo_section2--item4": {
+    "props": {
+      "text": "Cama sofá TouchDog",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+  "rich-text#titulo_section2--item5": {
+    "props": {
+      "text": "Colchoneta Franjas",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+  "rich-text#titulo_section2--item6": {
+    "props": {
+      "text": "colchoneta Vintage TouchDog",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+
+  "rich-text#titulo_section2--item7": {
+    "props": {
+      "text": "Comedero Doble con Bandeja Antirreguero",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+
+  "rich-text#titulo_section2--item8": {
+    "props": {
+      "text": "Peluche Oveja",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home2"
+    }
+  },
+  //?rich-text-precios
+
+  "rich-text#titulo_section3--item1": {
+    "props": {
+      "text": " $ 50.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  },
+
+  "rich-text#titulo_section3--item2": {
+    "props": {
+      "text": " $ 85.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  },
+  "rich-text#titulo_section3--item3": {
+    "props": {
+      "text": " $ 70.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  },
+  "rich-text#titulo_section3--item4": {
+    "props": {
+      "text": " $ 85.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  },
+  //?rich-tex section 4
+  "rich-text#titulo_section4--item5": {
+    "props": {
+      "text": " $ 100.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  },
+  "rich-text#titulo_section4--item6": {
+    "props": {
+      "text": " $ 70.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  },
+  "rich-text#titulo_section4--item7": {
+    "props": {
+      "text": " $ 30.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  },
+  "rich-text#titulo_section4--item8": {
+    "props": {
+      "text": " $ 30.000",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-categoria-home3",
+      "textColor": "warning"
+    }
+  }
+}

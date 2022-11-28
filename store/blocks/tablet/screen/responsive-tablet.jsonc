@@ -19,18 +19,20 @@
   "responsive-layout.tablet#home__info--tablet":{
     "title": "componente tablet",
     "children": [
+            
+            "flex-layout.row#global__home--bullets",
             "rich-text#home__info--tablet",
            "flex-layout.row#home__section1-tablet",
             "flex-layout.row#home__section2-tablet",
             "flex-layout.row#home__section--video", 
-            "rich-text#tablet__info--categorias",
+            "rich-text#tablet__info--categorias--tablet",
             "flex-layout.row#tablet__category--one",
             "flex-layout.row#tablet__category--two",
             "flex-layout.row#tablet__category--three",
             "rich-text#home__info--ofertas",
             "flex-layout.row#tablet__ofertas--one",
             "flex-layout.row#tablet__ofertas--two",
-            "flex-layout.row#home__section--spa",
+            "flex-layout.row#home__section--spa--mobile",
             "flex-layout.row#desktop__product--list"
 
      

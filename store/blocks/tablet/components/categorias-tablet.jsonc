@@ -1,5 +1,5 @@
 {
-  "rich-text#tablet__info--categorias": {
+  "rich-text#tablet__info--categorias--tablet": {
     "props": {
       "text": "# Nuestras categorias",
       "blockClass": "tablet-info-categorias",

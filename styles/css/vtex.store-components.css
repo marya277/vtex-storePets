@@ -21,6 +21,14 @@
     padding: 23px;
     border-top: 3px solid #5196e9;
 }
+.imageElement--img-col-spa{
+    margin-top: 40px;
+}
+.infoCardContainer--info-card-home{
+    background-color:rgb(255, 194, 193) ;
+}
+
+
 @media all and (min-width: 480px) and (max-width: 768px) { 
 .imageElement--img-category1,.imageElement--img-col-category1,.imageElement--img-col-category2,.imageElement--img-ofertas1{
     max-width: 150px;
@@ -42,15 +50,7 @@
     }
     
 }
-/* @media only screen and (max-width: 768px) and (orientation : portrait) {
-	
-    .imageElement--img-category1,.imageElement--img-col-category1,.imageElement--img-col-category2,.imageElement--img-ofertas1{
-        max-width: 150px;
-    }
 
-
-
-} */
 .imageElement--img1-pelos-spa{
     border: 6px solid;
     border-color: #FF8000;
@@ -88,5 +88,19 @@
     margin-left: 28px;
 }
 .price_className{
-    margin-left: 23px;
+    margin-left: 30px;
+}
+.priceContainer{
+    margin-left: 30px;
+}
+.shareContainer{
+    margin-left: 47px;
+}
+.imageElement--img-footer-tablet{
+    margin-left: 30px;
+    max-width: 180px
+}
+
+.imageElement--footer__maps{
+    margin-left: 20px;
 }
