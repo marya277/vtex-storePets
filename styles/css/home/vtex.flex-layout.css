@@ -110,7 +110,7 @@
     flex-direction: column;
 }
 .flexCol--col-slider-summary{
-  background-color: #d3eef5;
+  background-image: url(assets/img/bg-instagram.jpg);
 }
 
 @media only screen 
