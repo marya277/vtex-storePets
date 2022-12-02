@@ -26,8 +26,8 @@
           "blockClass": "row-spa",
           "fullWidth":true
         }
-      },
-      "flex-layout.col#spa_info--text": {
+      }
+      /* "flex-layout.col#spa_info--text": {
         "title": "col-seccion inicial spa",
         "children": [
           "flex-layout.row#spa_seccion--spa",
@@ -36,6 +36,6 @@
           "rich-text#section_spa--one",
           "flex-layout.row#spa_seccion--segunda"
         ]
-      }
+      } */
      
 }
