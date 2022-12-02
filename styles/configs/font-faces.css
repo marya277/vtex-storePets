@@ -1,23 +1,38 @@
- @font-face {
-    font-family: 'Dosis';
-    src: url(assets/fonts/Dosis-ExtraBold.ttf);
-    font-weight: bold;
-  }
-  @font-face {
-    font-family: 'Dosis';
-    src: url(assets/fonts/Dosis-ExtraBold.ttf);
-    font-weight: bold;
-  }
-  @font-face {
-    font-family: 'Barlow';
-    src: url(assets/fonts/Barlow-Bold.ttf);
-    font-weight: bold;
-  }
-  @font-face {
-    font-family: 'Barlow';
-    src: url(assets/fonts/Barlow-BoldItalic.ttf);
-    font-weight: bold;
-  }
+
+@font-face {
+  font-family: 'Barlow';
+  src: url(assets/fonts/Barlow-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url(assets/fonts/Barlow-BoldItalic.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url(assets/fonts/Dosis-ExtraBold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Dosis';
+  src: url(assets/fonts/Dosis-ExtraBold.ttf);
+  font-weight: bold;
+}
+
+
+/*
+@font-face {
+  font-family: 'Dosis-semibold';
+  src: url(assets/fonts/Dosis-semibold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Dosis-bold';
+  src: url(assets/fonts/Dosis-bold.ttf);
+  font-weight: bold;
+}  */
+  
   
 /*
   @font-face {
